@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.BuildThisPleaseSample" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">@color/sample_window_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

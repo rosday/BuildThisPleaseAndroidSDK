@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">בקשות לתכונות</string>
+    <string name="btp_requests">בקשות</string>
+    <string name="btp_mine">שלי</string>
+    <string name="btp_implemented">יושמו</string>
+    <string name="btp_done">הושלמו</string>
+    <string name="btp_new_request">בקשה חדשה</string>
+    <string name="btp_title">כותרת</string>
+    <string name="btp_description">תיאור</string>
+    <string name="btp_submit">שליחת בקשה</string>
+    <string name="btp_email_optional">אימייל (אופציונלי)</string>
+    <string name="btp_invalid_email">יש להזין כתובת אימייל חוקית</string>
+    <string name="btp_cancel">ביטול</string>
+    <string name="btp_try_again">לנסות שוב</string>
+    <string name="btp_empty_requests">אין בקשות ציבוריות</string>
+    <string name="btp_empty_requests_detail">בקשות שנבדקות, מתוכננות או נמצאות בפיתוח יופיעו כאן.</string>
+    <string name="btp_empty_mine">עדיין לא הוגש שום דבר</string>
+    <string name="btp_empty_mine_detail">בקשות שנשלחו מהתקנה זו מופיעות כאן, כולל בקשות ממתינות.</string>
+    <string name="btp_empty_implemented">עדיין לא יושמו בקשות</string>
+    <string name="btp_empty_implemented_detail">בקשות שיושמו והערות גרסה יופיעו כאן ללא מספר ההצבעות.</string>
+    <string name="btp_remove_vote">הסרת ההצבעה</string>
+    <string name="btp_vote_for_request">הצבעה לבקשה זו</string>
+    <string name="btp_reply">כתיבת הודעה</string>
+    <string name="btp_send_reply">שליחת תשובה</string>
+    <string name="btp_save">שמירה</string>
+    <string name="btp_conversation">שיחה</string>
+    <string name="btp_pending_approval">בהמתנה לאישור</string>
+    <string name="btp_message_removed">ההודעה הוסרה</string>
+    <string name="btp_admin">צוות</string>
+    <string name="btp_user">אני</string>
+    <string name="btp_other_user">משתמש</string>
+    <string name="btp_edited">נערכה</string>
+    <string name="btp_read_only">השיחה הזו זמינה לקריאה בלבד.</string>
+    <string name="btp_edit_message">עריכת הודעה</string>
+    <string name="btp_back">חזרה</string>
+    <string name="btp_error_title">לא ניתן לטעון בקשות</string>
+    <string name="btp_status_pending">בהמתנה</string>
+    <string name="btp_status_in_review">בבדיקה</string>
+    <string name="btp_status_planned">מתוכננת</string>
+    <string name="btp_status_in_progress">בתהליך</string>
+    <string name="btp_status_implemented">יושמו</string>
+    <string name="btp_status_rejected">נדחתה</string>
+    <string name="btp_status_merged">מוזגה</string>
+    <string name="btp_status_archived">בארכיון</string>
+    <string name="btp_loading_requests">טוען בקשות…</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Запросы на новые функции</string>
+    <string name="btp_requests">Запросы</string>
+    <string name="btp_mine">Мои</string>
+    <string name="btp_implemented">Реализовано</string>
+    <string name="btp_done">Готово</string>
+    <string name="btp_new_request">Новый запрос</string>
+    <string name="btp_title">Заголовок</string>
+    <string name="btp_description">Описание</string>
+    <string name="btp_submit">Отправить запрос</string>
+    <string name="btp_email_optional">Электронная почта (необязательно)</string>
+    <string name="btp_invalid_email">Введите действительный адрес электронной почты</string>
+    <string name="btp_cancel">Отмена</string>
+    <string name="btp_try_again">Попробуйте ещё раз</string>
+    <string name="btp_empty_requests">Нет публичных запросов</string>
+    <string name="btp_empty_requests_detail">Здесь будут отображаться запросы на рассмотрении, запланированные или находящиеся в разработке.</string>
+    <string name="btp_empty_mine">Еще ничего не отправлено</string>
+    <string name="btp_empty_mine_detail">Здесь отображаются запросы, отправленные из этой установки, включая ожидающие запросы.</string>
+    <string name="btp_empty_implemented">Еще ничего не реализовано</string>
+    <string name="btp_empty_implemented_detail">Реализованные запросы и примечания к выпуску появятся здесь без количества голосов.</string>
+    <string name="btp_remove_vote">Убрать голос</string>
+    <string name="btp_vote_for_request">Проголосовать за этот запрос</string>
+    <string name="btp_reply">Написать сообщение</string>
+    <string name="btp_send_reply">Отправить ответ</string>
+    <string name="btp_save">Сохранить</string>
+    <string name="btp_conversation">Переписка</string>
+    <string name="btp_pending_approval">Ожидает одобрения</string>
+    <string name="btp_message_removed">Сообщение удалено</string>
+    <string name="btp_admin">Команда</string>
+    <string name="btp_user">Вы</string>
+    <string name="btp_other_user">Пользователь</string>
+    <string name="btp_edited">Отредактировано</string>
+    <string name="btp_read_only">Эта переписка доступна только для чтения.</string>
+    <string name="btp_edit_message">Редактировать сообщение</string>
+    <string name="btp_back">Назад</string>
+    <string name="btp_error_title">Не удалось загрузить запросы</string>
+    <string name="btp_status_pending">Ожидает</string>
+    <string name="btp_status_in_review">На рассмотрении</string>
+    <string name="btp_status_planned">Запланировано</string>
+    <string name="btp_status_in_progress">В работе</string>
+    <string name="btp_status_implemented">Реализовано</string>
+    <string name="btp_status_rejected">Отклонено</string>
+    <string name="btp_status_merged">Объединено</string>
+    <string name="btp_status_archived">В архиве</string>
+    <string name="btp_loading_requests">Загрузка запросов…</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Funktionsönskemål</string>
+    <string name="btp_requests">Önskemål</string>
+    <string name="btp_mine">Mina</string>
+    <string name="btp_implemented">Genomförda</string>
+    <string name="btp_done">Klart</string>
+    <string name="btp_new_request">Nytt önskemål</string>
+    <string name="btp_title">Titel</string>
+    <string name="btp_description">Beskrivning</string>
+    <string name="btp_submit">Skicka in önskemål</string>
+    <string name="btp_email_optional">E-post (valfritt)</string>
+    <string name="btp_invalid_email">Ange en giltig e-postadress</string>
+    <string name="btp_cancel">Avbryt</string>
+    <string name="btp_try_again">Försök igen</string>
+    <string name="btp_empty_requests">Inga offentliga önskemål</string>
+    <string name="btp_empty_requests_detail">Önskemål som granskas, planeras eller utvecklas visas här.</string>
+    <string name="btp_empty_mine">Inga önskemål har skickats in ännu</string>
+    <string name="btp_empty_mine_detail">Önskemål som skickats in från den här installationen visas här, inklusive väntande önskemål.</string>
+    <string name="btp_empty_implemented">Inga önskemål har genomförts ännu</string>
+    <string name="btp_empty_implemented_detail">Genomförda önskemål och versionsinformation visas här utan röstetal.</string>
+    <string name="btp_remove_vote">Ta bort röst</string>
+    <string name="btp_vote_for_request">Rösta på detta önskemål</string>
+    <string name="btp_reply">Skriv ett meddelande</string>
+    <string name="btp_send_reply">Skicka svar</string>
+    <string name="btp_save">Spara</string>
+    <string name="btp_conversation">Konversation</string>
+    <string name="btp_pending_approval">Väntar på godkännande</string>
+    <string name="btp_message_removed">Meddelandet har tagits bort</string>
+    <string name="btp_admin">Teamet</string>
+    <string name="btp_user">Du</string>
+    <string name="btp_other_user">Användare</string>
+    <string name="btp_edited">Redigerat</string>
+    <string name="btp_read_only">Den här konversationen är skrivskyddad.</string>
+    <string name="btp_edit_message">Redigera meddelande</string>
+    <string name="btp_back">Tillbaka</string>
+    <string name="btp_error_title">Det gick inte att läsa in önskemål</string>
+    <string name="btp_status_pending">Väntar</string>
+    <string name="btp_status_in_review">Under granskning</string>
+    <string name="btp_status_planned">Planerat</string>
+    <string name="btp_status_in_progress">Pågår</string>
+    <string name="btp_status_implemented">Genomförda</string>
+    <string name="btp_status_rejected">Avvisat</string>
+    <string name="btp_status_merged">Sammanslaget</string>
+    <string name="btp_status_archived">Arkiverat</string>
+    <string name="btp_loading_requests">Läser in förfrågningar…</string>
+</resources>

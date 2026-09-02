@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Solicitări de funcționalități</string>
+    <string name="btp_requests">Solicitări</string>
+    <string name="btp_mine">Ale mele</string>
+    <string name="btp_implemented">Implementate</string>
+    <string name="btp_done">Finalizate</string>
+    <string name="btp_new_request">Solicitare nouă</string>
+    <string name="btp_title">Titlu</string>
+    <string name="btp_description">Descriere</string>
+    <string name="btp_submit">Trimite solicitarea</string>
+    <string name="btp_email_optional">E-mail (opțional)</string>
+    <string name="btp_invalid_email">Introdu o adresă de e-mail validă</string>
+    <string name="btp_cancel">Anulează</string>
+    <string name="btp_try_again">Încearcă din nou</string>
+    <string name="btp_empty_requests">Nu există solicitări publice</string>
+    <string name="btp_empty_requests_detail">Solicitările în curs de analiză, planificate sau în dezvoltare vor apărea aici.</string>
+    <string name="btp_empty_mine">Nimic depus încă</string>
+    <string name="btp_empty_mine_detail">Solicitările trimise de la această instalare apar aici, inclusiv solicitările în așteptare.</string>
+    <string name="btp_empty_implemented">Nimic implementat încă</string>
+    <string name="btp_empty_implemented_detail">Solicitările implementate și notele de lansare vor apărea aici fără numărul de voturi.</string>
+    <string name="btp_remove_vote">Elimină votul</string>
+    <string name="btp_vote_for_request">Votează pentru această solicitare</string>
+    <string name="btp_reply">Scrie un mesaj</string>
+    <string name="btp_send_reply">Trimite răspuns</string>
+    <string name="btp_save">Salvează</string>
+    <string name="btp_conversation">Conversație</string>
+    <string name="btp_pending_approval">În așteptarea aprobării</string>
+    <string name="btp_message_removed">Mesaj eliminat</string>
+    <string name="btp_admin">Echipă</string>
+    <string name="btp_user">Tu</string>
+    <string name="btp_other_user">Utilizator</string>
+    <string name="btp_edited">Editat</string>
+    <string name="btp_read_only">Această conversație este disponibilă doar pentru citire.</string>
+    <string name="btp_edit_message">Editează mesajul</string>
+    <string name="btp_back">Înapoi</string>
+    <string name="btp_error_title">Nu s-au putut încărca solicitările</string>
+    <string name="btp_status_pending">În așteptare</string>
+    <string name="btp_status_in_review">În verificare</string>
+    <string name="btp_status_planned">Planificată</string>
+    <string name="btp_status_in_progress">În lucru</string>
+    <string name="btp_status_implemented">Implementate</string>
+    <string name="btp_status_rejected">Respinsă</string>
+    <string name="btp_status_merged">Îmbinată</string>
+    <string name="btp_status_archived">Arhivată</string>
+    <string name="btp_loading_requests">Se încarcă solicitările…</string>
+</resources>

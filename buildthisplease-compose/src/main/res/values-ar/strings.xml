@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">طلبات الميزات</string>
+    <string name="btp_requests">الطلبات</string>
+    <string name="btp_mine">طلباتي</string>
+    <string name="btp_implemented">تم التنفيذ</string>
+    <string name="btp_done">مكتملة</string>
+    <string name="btp_new_request">طلب جديد</string>
+    <string name="btp_title">عنوان</string>
+    <string name="btp_description">وصف</string>
+    <string name="btp_submit">إرسال الطلب</string>
+    <string name="btp_email_optional">البريد الإلكتروني (اختياري)</string>
+    <string name="btp_invalid_email">أدخل عنوان بريد إلكتروني صالحًا</string>
+    <string name="btp_cancel">إلغاء</string>
+    <string name="btp_try_again">حاول مرة أخرى</string>
+    <string name="btp_empty_requests">لا توجد طلبات عامة</string>
+    <string name="btp_empty_requests_detail">ستظهر هنا الطلبات قيد المراجعة أو المخطط لها أو قيد التطوير.</string>
+    <string name="btp_empty_mine">لم يتم تقديم أي شيء حتى الآن</string>
+    <string name="btp_empty_mine_detail">تظهر الطلبات المقدمة من هذا التثبيت هنا، بما في ذلك الطلبات المعلقة.</string>
+    <string name="btp_empty_implemented">لم يتم تنفيذ أي شيء حتى الآن</string>
+    <string name="btp_empty_implemented_detail">ستظهر هنا الطلبات التي تم تنفيذها وملاحظات الإصدار، بدون إجمالي الأصوات.</string>
+    <string name="btp_remove_vote">إزالة التصويت</string>
+    <string name="btp_vote_for_request">التصويت لهذا الطلب</string>
+    <string name="btp_reply">اكتب رسالة</string>
+    <string name="btp_send_reply">إرسال الرد</string>
+    <string name="btp_save">حفظ</string>
+    <string name="btp_conversation">محادثة</string>
+    <string name="btp_pending_approval">بانتظار الموافقة</string>
+    <string name="btp_message_removed">تمت إزالة الرسالة</string>
+    <string name="btp_admin">الفريق</string>
+    <string name="btp_user">أنت</string>
+    <string name="btp_other_user">مستخدم</string>
+    <string name="btp_edited">تم التعديل</string>
+    <string name="btp_read_only">هذه المحادثة متاحة للقراءة فقط.</string>
+    <string name="btp_edit_message">تحرير الرسالة</string>
+    <string name="btp_back">رجوع</string>
+    <string name="btp_error_title">تعذر تحميل الطلبات</string>
+    <string name="btp_status_pending">قيد الانتظار</string>
+    <string name="btp_status_in_review">قيد المراجعة</string>
+    <string name="btp_status_planned">مخطط</string>
+    <string name="btp_status_in_progress">قيد التنفيذ</string>
+    <string name="btp_status_implemented">تم التنفيذ</string>
+    <string name="btp_status_rejected">مرفوض</string>
+    <string name="btp_status_merged">تم الدمج</string>
+    <string name="btp_status_archived">مؤرشف</string>
+    <string name="btp_loading_requests">جارٍ تحميل الطلبات…</string>
+</resources>

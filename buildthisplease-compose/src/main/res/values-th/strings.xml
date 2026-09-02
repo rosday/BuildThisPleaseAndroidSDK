@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">คำขอฟีเจอร์</string>
+    <string name="btp_requests">คำขอ</string>
+    <string name="btp_mine">ของฉัน</string>
+    <string name="btp_implemented">พัฒนาแล้ว</string>
+    <string name="btp_done">เสร็จแล้ว</string>
+    <string name="btp_new_request">คำขอใหม่</string>
+    <string name="btp_title">ชื่อ</string>
+    <string name="btp_description">คำอธิบาย</string>
+    <string name="btp_submit">ส่งคำขอ</string>
+    <string name="btp_email_optional">อีเมล (ไม่บังคับ)</string>
+    <string name="btp_invalid_email">ป้อนที่อยู่อีเมลที่ถูกต้อง</string>
+    <string name="btp_cancel">ยกเลิก</string>
+    <string name="btp_try_again">ลองอีกครั้ง</string>
+    <string name="btp_empty_requests">ไม่มีคำขอสาธารณะ</string>
+    <string name="btp_empty_requests_detail">คำขอที่อยู่ระหว่างตรวจสอบ วางแผน หรือกำลังพัฒนาจะปรากฏที่นี่</string>
+    <string name="btp_empty_mine">ยังไม่มีคำขอที่ส่งมา</string>
+    <string name="btp_empty_mine_detail">คำขอที่ส่งจากการติดตั้งนี้จะปรากฏที่นี่ รวมถึงคำขอที่รอดำเนินการ</string>
+    <string name="btp_empty_implemented">ยังไม่มีคำขอที่พัฒนาแล้ว</string>
+    <string name="btp_empty_implemented_detail">คำขอที่พัฒนาแล้วและบันทึกประจำรุ่นจะปรากฏที่นี่โดยไม่แสดงจำนวนโหวต</string>
+    <string name="btp_remove_vote">ลบการลงคะแนน</string>
+    <string name="btp_vote_for_request">โหวตให้คำขอนี้</string>
+    <string name="btp_reply">เขียนข้อความ</string>
+    <string name="btp_send_reply">ส่งข้อความตอบกลับ</string>
+    <string name="btp_save">บันทึก</string>
+    <string name="btp_conversation">การสนทนา</string>
+    <string name="btp_pending_approval">รอการอนุมัติ</string>
+    <string name="btp_message_removed">ลบข้อความแล้ว</string>
+    <string name="btp_admin">ทีมงาน</string>
+    <string name="btp_user">คุณ</string>
+    <string name="btp_other_user">ผู้ใช้</string>
+    <string name="btp_edited">แก้ไขแล้ว</string>
+    <string name="btp_read_only">การสนทนานี้อ่านได้อย่างเดียว</string>
+    <string name="btp_edit_message">แก้ไขข้อความ</string>
+    <string name="btp_back">ย้อนกลับ</string>
+    <string name="btp_error_title">ไม่สามารถโหลดคำขอได้</string>
+    <string name="btp_status_pending">รอตรวจสอบ</string>
+    <string name="btp_status_in_review">อยู่ระหว่างตรวจสอบ</string>
+    <string name="btp_status_planned">วางแผนแล้ว</string>
+    <string name="btp_status_in_progress">กำลังดำเนินการ</string>
+    <string name="btp_status_implemented">พัฒนาแล้ว</string>
+    <string name="btp_status_rejected">ปฏิเสธแล้ว</string>
+    <string name="btp_status_merged">รวมแล้ว</string>
+    <string name="btp_status_archived">เก็บถาวรแล้ว</string>
+    <string name="btp_loading_requests">กำลังโหลดคำขอ…</string>
+</resources>

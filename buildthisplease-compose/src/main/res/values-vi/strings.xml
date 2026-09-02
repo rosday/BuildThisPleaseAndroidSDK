@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Yêu cầu tính năng</string>
+    <string name="btp_requests">Yêu cầu</string>
+    <string name="btp_mine">Của tôi</string>
+    <string name="btp_implemented">Đã triển khai</string>
+    <string name="btp_done">Đã xong</string>
+    <string name="btp_new_request">Yêu cầu mới</string>
+    <string name="btp_title">Tiêu đề</string>
+    <string name="btp_description">Mô tả</string>
+    <string name="btp_submit">Gửi yêu cầu</string>
+    <string name="btp_email_optional">Email (tùy chọn)</string>
+    <string name="btp_invalid_email">Nhập địa chỉ email hợp lệ</string>
+    <string name="btp_cancel">Hủy</string>
+    <string name="btp_try_again">Thử lại</string>
+    <string name="btp_empty_requests">Không có yêu cầu tính năng công khai</string>
+    <string name="btp_empty_requests_detail">Các yêu cầu đang được xem xét, đã lên kế hoạch hoặc đang phát triển sẽ xuất hiện ở đây.</string>
+    <string name="btp_empty_mine">Chưa có gì được gửi</string>
+    <string name="btp_empty_mine_detail">Các yêu cầu được gửi từ quá trình cài đặt này sẽ xuất hiện ở đây, bao gồm cả các yêu cầu đang chờ xử lý.</string>
+    <string name="btp_empty_implemented">Chưa có gì được triển khai</string>
+    <string name="btp_empty_implemented_detail">Các yêu cầu đã triển khai và ghi chú phát hành sẽ xuất hiện ở đây mà không hiển thị số phiếu bầu.</string>
+    <string name="btp_remove_vote">Hủy bình chọn</string>
+    <string name="btp_vote_for_request">Bình chọn cho yêu cầu này</string>
+    <string name="btp_reply">Viết tin nhắn</string>
+    <string name="btp_send_reply">Gửi trả lời</string>
+    <string name="btp_save">Lưu</string>
+    <string name="btp_conversation">Cuộc trò chuyện</string>
+    <string name="btp_pending_approval">Đang chờ phê duyệt</string>
+    <string name="btp_message_removed">Đã xóa tin nhắn</string>
+    <string name="btp_admin">Đội ngũ</string>
+    <string name="btp_user">Bạn</string>
+    <string name="btp_other_user">Người dùng</string>
+    <string name="btp_edited">Đã chỉnh sửa</string>
+    <string name="btp_read_only">Cuộc trò chuyện này ở chế độ chỉ đọc.</string>
+    <string name="btp_edit_message">Chỉnh sửa tin nhắn</string>
+    <string name="btp_back">Quay lại</string>
+    <string name="btp_error_title">Không thể tải yêu cầu</string>
+    <string name="btp_status_pending">Đang chờ xem xét</string>
+    <string name="btp_status_in_review">Đang xem xét</string>
+    <string name="btp_status_planned">Đã lên kế hoạch</string>
+    <string name="btp_status_in_progress">Đang thực hiện</string>
+    <string name="btp_status_implemented">Đã triển khai</string>
+    <string name="btp_status_rejected">Đã từ chối</string>
+    <string name="btp_status_merged">Đã hợp nhất</string>
+    <string name="btp_status_archived">Đã lưu trữ</string>
+    <string name="btp_loading_requests">Đang tải yêu cầu…</string>
+</resources>

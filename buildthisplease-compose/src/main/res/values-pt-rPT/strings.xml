@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Pedidos de funcionalidades</string>
+    <string name="btp_requests">Pedidos</string>
+    <string name="btp_mine">Os meus</string>
+    <string name="btp_implemented">Implementados</string>
+    <string name="btp_done">Concluídos</string>
+    <string name="btp_new_request">Novo pedido</string>
+    <string name="btp_title">Título</string>
+    <string name="btp_description">Descrição</string>
+    <string name="btp_submit">Enviar pedido</string>
+    <string name="btp_email_optional">E-mail (opcional)</string>
+    <string name="btp_invalid_email">Introduza um endereço de e-mail válido</string>
+    <string name="btp_cancel">Cancelar</string>
+    <string name="btp_try_again">Tentar novamente</string>
+    <string name="btp_empty_requests">Nenhum pedido público</string>
+    <string name="btp_empty_requests_detail">Os pedidos em análise, planeados ou em desenvolvimento aparecerão aqui.</string>
+    <string name="btp_empty_mine">Nada enviado ainda</string>
+    <string name="btp_empty_mine_detail">Os pedidos enviados a partir desta instalação aparecem aqui, incluindo os pedidos pendentes.</string>
+    <string name="btp_empty_implemented">Nada implementado ainda</string>
+    <string name="btp_empty_implemented_detail">Os pedidos implementados e as notas de lançamento aparecerão aqui sem mostrar o total de votos.</string>
+    <string name="btp_remove_vote">Remover voto</string>
+    <string name="btp_vote_for_request">Votar neste pedido</string>
+    <string name="btp_reply">Escrever uma mensagem</string>
+    <string name="btp_send_reply">Enviar resposta</string>
+    <string name="btp_save">Guardar</string>
+    <string name="btp_conversation">Conversa</string>
+    <string name="btp_pending_approval">Aguarda aprovação</string>
+    <string name="btp_message_removed">Mensagem removida</string>
+    <string name="btp_admin">Equipa</string>
+    <string name="btp_user">Tu</string>
+    <string name="btp_other_user">Utilizador</string>
+    <string name="btp_edited">Editada</string>
+    <string name="btp_read_only">Esta conversa é de leitura apenas.</string>
+    <string name="btp_edit_message">Editar mensagem</string>
+    <string name="btp_back">Voltar</string>
+    <string name="btp_error_title">Não foi possível carregar os pedidos</string>
+    <string name="btp_status_pending">Pendente</string>
+    <string name="btp_status_in_review">Em análise</string>
+    <string name="btp_status_planned">Planeado</string>
+    <string name="btp_status_in_progress">Em curso</string>
+    <string name="btp_status_implemented">Implementados</string>
+    <string name="btp_status_rejected">Rejeitado</string>
+    <string name="btp_status_merged">Unificado</string>
+    <string name="btp_status_archived">Arquivado</string>
+    <string name="btp_loading_requests">A carregar pedidos…</string>
+</resources>

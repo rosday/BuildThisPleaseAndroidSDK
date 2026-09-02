@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Ominaisuuspyynnöt</string>
+    <string name="btp_requests">Pyynnöt</string>
+    <string name="btp_mine">Omat</string>
+    <string name="btp_implemented">Toteutettu</string>
+    <string name="btp_done">Valmiit</string>
+    <string name="btp_new_request">Uusi pyyntö</string>
+    <string name="btp_title">Otsikko</string>
+    <string name="btp_description">Kuvaus</string>
+    <string name="btp_submit">Lähetä pyyntö</string>
+    <string name="btp_email_optional">Sähköposti (valinnainen)</string>
+    <string name="btp_invalid_email">Anna kelvollinen sähköpostiosoite</string>
+    <string name="btp_cancel">Peruuta</string>
+    <string name="btp_try_again">Yritä uudelleen</string>
+    <string name="btp_empty_requests">Ei julkisia pyyntöjä</string>
+    <string name="btp_empty_requests_detail">Tarkasteltavana olevat, suunnitellut tai kehitteillä olevat pyynnöt näkyvät täällä.</string>
+    <string name="btp_empty_mine">Mitään ei ole vielä lähetetty</string>
+    <string name="btp_empty_mine_detail">Tästä asennuksesta lähetetyt pyynnöt näkyvät tässä, mukaan lukien odottavat pyynnöt.</string>
+    <string name="btp_empty_implemented">Mitään ei ole vielä toteutettu</string>
+    <string name="btp_empty_implemented_detail">Toteutetut pyynnöt ja julkaisutiedot näkyvät täällä ilman äänimääriä.</string>
+    <string name="btp_remove_vote">Poista ääni</string>
+    <string name="btp_vote_for_request">Äänestä tätä pyyntöä</string>
+    <string name="btp_reply">Kirjoita viesti</string>
+    <string name="btp_send_reply">Lähetä vastaus</string>
+    <string name="btp_save">Tallenna</string>
+    <string name="btp_conversation">Keskustelu</string>
+    <string name="btp_pending_approval">Odottaa hyväksyntää</string>
+    <string name="btp_message_removed">Viesti poistettu</string>
+    <string name="btp_admin">Tiimi</string>
+    <string name="btp_user">Sinä</string>
+    <string name="btp_other_user">Käyttäjä</string>
+    <string name="btp_edited">Muokattu</string>
+    <string name="btp_read_only">Tätä keskustelua voi vain lukea.</string>
+    <string name="btp_edit_message">Muokkaa viestiä</string>
+    <string name="btp_back">Takaisin</string>
+    <string name="btp_error_title">Pyyntöjä ei voitu ladata</string>
+    <string name="btp_status_pending">Odottaa</string>
+    <string name="btp_status_in_review">Tarkistuksessa</string>
+    <string name="btp_status_planned">Suunniteltu</string>
+    <string name="btp_status_in_progress">Työn alla</string>
+    <string name="btp_status_implemented">Toteutettu</string>
+    <string name="btp_status_rejected">Hylätty</string>
+    <string name="btp_status_merged">Yhdistetty</string>
+    <string name="btp_status_archived">Arkistoitu</string>
+    <string name="btp_loading_requests">Ladataan pyyntöjä…</string>
+</resources>

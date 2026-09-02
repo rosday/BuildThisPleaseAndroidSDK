@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Запити на нові функції</string>
+    <string name="btp_requests">Запити</string>
+    <string name="btp_mine">Мої</string>
+    <string name="btp_implemented">Реалізовано</string>
+    <string name="btp_done">Готово</string>
+    <string name="btp_new_request">Новий запит</string>
+    <string name="btp_title">Назва</string>
+    <string name="btp_description">Опис</string>
+    <string name="btp_submit">Надіслати запит</string>
+    <string name="btp_email_optional">Електронна адреса (необов\'язково)</string>
+    <string name="btp_invalid_email">Введіть дійсну адресу електронної пошти</string>
+    <string name="btp_cancel">Скасувати</string>
+    <string name="btp_try_again">Спробуйте знову</string>
+    <string name="btp_empty_requests">Немає публічних запитів</string>
+    <string name="btp_empty_requests_detail">Тут відображатимуться запити, які розглядаються, заплановані або перебувають у розробці.</string>
+    <string name="btp_empty_mine">Ще нічого не подано</string>
+    <string name="btp_empty_mine_detail">Тут відображаються запити, надіслані з цієї інсталяції, включно з запитами, що очікують на розгляд.</string>
+    <string name="btp_empty_implemented">Ще нічого не реалізовано</string>
+    <string name="btp_empty_implemented_detail">Реалізовані запити та примітки до випуску відображатимуться тут без кількості голосів.</string>
+    <string name="btp_remove_vote">Зняти голос</string>
+    <string name="btp_vote_for_request">Голосуйте за цей запит</string>
+    <string name="btp_reply">Написати повідомлення</string>
+    <string name="btp_send_reply">Надіслати відповідь</string>
+    <string name="btp_save">Зберегти</string>
+    <string name="btp_conversation">Розмова</string>
+    <string name="btp_pending_approval">Очікує затвердження</string>
+    <string name="btp_message_removed">Повідомлення видалено</string>
+    <string name="btp_admin">Команда</string>
+    <string name="btp_user">Ви</string>
+    <string name="btp_other_user">Користувач</string>
+    <string name="btp_edited">Відредаговано</string>
+    <string name="btp_read_only">Ця розмова доступна лише для читання.</string>
+    <string name="btp_edit_message">Редагувати повідомлення</string>
+    <string name="btp_back">Назад</string>
+    <string name="btp_error_title">Не вдалося завантажити запити</string>
+    <string name="btp_status_pending">Очікує</string>
+    <string name="btp_status_in_review">На розгляді</string>
+    <string name="btp_status_planned">Заплановано</string>
+    <string name="btp_status_in_progress">В роботі</string>
+    <string name="btp_status_implemented">Реалізовано</string>
+    <string name="btp_status_rejected">Відхилено</string>
+    <string name="btp_status_merged">Об’єднано</string>
+    <string name="btp_status_archived">В архіві</string>
+    <string name="btp_loading_requests">Завантаження запитів…</string>
+</resources>

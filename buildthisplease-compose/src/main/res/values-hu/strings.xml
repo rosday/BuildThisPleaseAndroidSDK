@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Funkciókérések</string>
+    <string name="btp_requests">Kérések</string>
+    <string name="btp_mine">Sajátok</string>
+    <string name="btp_implemented">Megvalósítva</string>
+    <string name="btp_done">Kész</string>
+    <string name="btp_new_request">Új kérés</string>
+    <string name="btp_title">Cím</string>
+    <string name="btp_description">Leírás</string>
+    <string name="btp_submit">Kérés beküldése</string>
+    <string name="btp_email_optional">E-mail (nem kötelező)</string>
+    <string name="btp_invalid_email">Adj meg egy érvényes e-mail-címet</string>
+    <string name="btp_cancel">Mégse</string>
+    <string name="btp_try_again">Próbáld újra</string>
+    <string name="btp_empty_requests">Nincs nyilvános kérés</string>
+    <string name="btp_empty_requests_detail">Itt jelennek meg az ellenőrzés alatt álló, tervezett vagy fejlesztés alatt lévő kérések.</string>
+    <string name="btp_empty_mine">Még semmi sincs beküldve</string>
+    <string name="btp_empty_mine_detail">Itt jelennek meg az ebből a telepítésből beküldött kérések, beleértve a függőben lévő kéréseket is.</string>
+    <string name="btp_empty_implemented">Még semmi sem valósult meg</string>
+    <string name="btp_empty_implemented_detail">A megvalósított kérések és a kiadási megjegyzések itt jelennek meg, a szavazatok száma nélkül.</string>
+    <string name="btp_remove_vote">Szavazat eltávolítása</string>
+    <string name="btp_vote_for_request">Szavazz erre a kérésre</string>
+    <string name="btp_reply">Írj üzenetet</string>
+    <string name="btp_send_reply">Válasz küldése</string>
+    <string name="btp_save">Mentés</string>
+    <string name="btp_conversation">Beszélgetés</string>
+    <string name="btp_pending_approval">Jóváhagyásra vár</string>
+    <string name="btp_message_removed">Üzenet eltávolítva</string>
+    <string name="btp_admin">Csapat</string>
+    <string name="btp_user">Te</string>
+    <string name="btp_other_user">Felhasználó</string>
+    <string name="btp_edited">Szerkesztve</string>
+    <string name="btp_read_only">Ez a beszélgetés csak olvasható.</string>
+    <string name="btp_edit_message">Üzenet szerkesztése</string>
+    <string name="btp_back">Vissza</string>
+    <string name="btp_error_title">Nem sikerült betölteni a kéréseket</string>
+    <string name="btp_status_pending">Függőben</string>
+    <string name="btp_status_in_review">Felülvizsgálat alatt</string>
+    <string name="btp_status_planned">Tervezett</string>
+    <string name="btp_status_in_progress">Folyamatban</string>
+    <string name="btp_status_implemented">Megvalósítva</string>
+    <string name="btp_status_rejected">Elutasítva</string>
+    <string name="btp_status_merged">Egyesítve</string>
+    <string name="btp_status_archived">Archiválva</string>
+    <string name="btp_loading_requests">Kérelmek betöltése…</string>
+</resources>

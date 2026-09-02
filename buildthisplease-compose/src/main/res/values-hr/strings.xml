@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Zahtjevi za značajke</string>
+    <string name="btp_requests">Zahtjevi</string>
+    <string name="btp_mine">Moji</string>
+    <string name="btp_implemented">Implementirano</string>
+    <string name="btp_done">Dovršeno</string>
+    <string name="btp_new_request">Novi zahtjev</string>
+    <string name="btp_title">Naslov</string>
+    <string name="btp_description">Opis</string>
+    <string name="btp_submit">Pošalji zahtjev</string>
+    <string name="btp_email_optional">E-pošta (nije obavezno)</string>
+    <string name="btp_invalid_email">Unesite valjanu adresu e-pošte</string>
+    <string name="btp_cancel">Odustani</string>
+    <string name="btp_try_again">Pokušaj ponovno</string>
+    <string name="btp_empty_requests">Nema javnih zahtjeva</string>
+    <string name="btp_empty_requests_detail">Ovdje će se pojaviti zahtjevi koji se pregledavaju, planiraju ili razvijaju.</string>
+    <string name="btp_empty_mine">Još ništa nije poslano</string>
+    <string name="btp_empty_mine_detail">Zahtjevi poslani iz ove instalacije pojavljuju se ovdje, uključujući zahtjeve na čekanju.</string>
+    <string name="btp_empty_implemented">Još ništa nije implementirano</string>
+    <string name="btp_empty_implemented_detail">Ovdje će se prikazati implementirani zahtjevi i napomene o izdanju, bez ukupnog broja glasova.</string>
+    <string name="btp_remove_vote">Ukloni glas</string>
+    <string name="btp_vote_for_request">Glasaj za ovaj zahtjev</string>
+    <string name="btp_reply">Napiši poruku</string>
+    <string name="btp_send_reply">Pošalji odgovor</string>
+    <string name="btp_save">Spremi</string>
+    <string name="btp_conversation">Razgovor</string>
+    <string name="btp_pending_approval">Čeka se odobrenje</string>
+    <string name="btp_message_removed">Poruka uklonjena</string>
+    <string name="btp_admin">Tim</string>
+    <string name="btp_user">Ti</string>
+    <string name="btp_other_user">Korisnik</string>
+    <string name="btp_edited">Uređeno</string>
+    <string name="btp_read_only">Ovaj razgovor je samo za čitanje.</string>
+    <string name="btp_edit_message">Uredi poruku</string>
+    <string name="btp_back">Natrag</string>
+    <string name="btp_error_title">Nije moguće učitati zahtjeve</string>
+    <string name="btp_status_pending">Na čekanju</string>
+    <string name="btp_status_in_review">U pregledu</string>
+    <string name="btp_status_planned">Planirano</string>
+    <string name="btp_status_in_progress">U tijeku</string>
+    <string name="btp_status_implemented">Implementirano</string>
+    <string name="btp_status_rejected">Odbijeno</string>
+    <string name="btp_status_merged">Spojeno</string>
+    <string name="btp_status_archived">Arhivirano</string>
+    <string name="btp_loading_requests">Učitavanje zahtjeva…</string>
+</resources>

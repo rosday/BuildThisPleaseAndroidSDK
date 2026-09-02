@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Αιτήματα νέων λειτουργιών</string>
+    <string name="btp_requests">Αιτήματα</string>
+    <string name="btp_mine">Δικά μου</string>
+    <string name="btp_implemented">Υλοποιημένα</string>
+    <string name="btp_done">Ολοκληρωμένα</string>
+    <string name="btp_new_request">Νέο αίτημα</string>
+    <string name="btp_title">Τίτλος</string>
+    <string name="btp_description">Περιγραφή</string>
+    <string name="btp_submit">Υποβολή αιτήματος</string>
+    <string name="btp_email_optional">Email (προαιρετικό)</string>
+    <string name="btp_invalid_email">Εισαγάγετε μια έγκυρη διεύθυνση email</string>
+    <string name="btp_cancel">Ακύρωση</string>
+    <string name="btp_try_again">Προσπαθήστε ξανά</string>
+    <string name="btp_empty_requests">Δεν υπάρχουν δημόσια αιτήματα</string>
+    <string name="btp_empty_requests_detail">Τα αιτήματα που εξετάζονται, έχουν προγραμματιστεί ή βρίσκονται υπό ανάπτυξη θα εμφανίζονται εδώ.</string>
+    <string name="btp_empty_mine">Δεν έχει υποβληθεί τίποτα ακόμα</string>
+    <string name="btp_empty_mine_detail">Τα αιτήματα που υποβάλλονται από αυτήν την εγκατάσταση εμφανίζονται εδώ, συμπεριλαμβανομένων των αιτημάτων που εκκρεμούν.</string>
+    <string name="btp_empty_implemented">Δεν έχει υλοποιηθεί τίποτα ακόμα</string>
+    <string name="btp_empty_implemented_detail">Τα υλοποιημένα αιτήματα και οι σημειώσεις έκδοσης θα εμφανίζονται εδώ χωρίς τον αριθμό των ψήφων.</string>
+    <string name="btp_remove_vote">Κατάργηση ψήφου</string>
+    <string name="btp_vote_for_request">Ψηφίστε για αυτό το αίτημα</string>
+    <string name="btp_reply">Γράψτε ένα μήνυμα</string>
+    <string name="btp_send_reply">Αποστολή απάντησης</string>
+    <string name="btp_save">Αποθήκευση</string>
+    <string name="btp_conversation">Συνομιλία</string>
+    <string name="btp_pending_approval">Εν αναμονή έγκρισης</string>
+    <string name="btp_message_removed">Το μήνυμα καταργήθηκε</string>
+    <string name="btp_admin">Ομάδα</string>
+    <string name="btp_user">Εσείς</string>
+    <string name="btp_other_user">Χρήστης</string>
+    <string name="btp_edited">Επεξεργασμένο</string>
+    <string name="btp_read_only">Αυτή η συνομιλία είναι μόνο για ανάγνωση.</string>
+    <string name="btp_edit_message">Επεξεργασία μηνύματος</string>
+    <string name="btp_back">Πίσω</string>
+    <string name="btp_error_title">Δεν ήταν δυνατή η φόρτωση των αιτημάτων</string>
+    <string name="btp_status_pending">Σε αναμονή</string>
+    <string name="btp_status_in_review">Υπό εξέταση</string>
+    <string name="btp_status_planned">Προγραμματισμένο</string>
+    <string name="btp_status_in_progress">Σε εξέλιξη</string>
+    <string name="btp_status_implemented">Υλοποιημένα</string>
+    <string name="btp_status_rejected">Απορρίφθηκε</string>
+    <string name="btp_status_merged">Συγχωνεύτηκε</string>
+    <string name="btp_status_archived">Αρχειοθετήθηκε</string>
+    <string name="btp_loading_requests">Φόρτωση αιτημάτων…</string>
+</resources>

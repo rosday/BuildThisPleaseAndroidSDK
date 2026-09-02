@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Mga kahilingan sa feature</string>
+    <string name="btp_requests">Mga kahilingan</string>
+    <string name="btp_mine">Akin</string>
+    <string name="btp_implemented">Naipatupad</string>
+    <string name="btp_done">Tapos na</string>
+    <string name="btp_new_request">Bagong kahilingan</string>
+    <string name="btp_title">Pamagat</string>
+    <string name="btp_description">Paglalarawan</string>
+    <string name="btp_submit">Magsumite ng kahilingan</string>
+    <string name="btp_email_optional">Email (opsyonal)</string>
+    <string name="btp_invalid_email">Maglagay ng valid na email address</string>
+    <string name="btp_cancel">Kanselahin</string>
+    <string name="btp_try_again">Subukan muli</string>
+    <string name="btp_empty_requests">Walang pampublikong kahilingan</string>
+    <string name="btp_empty_requests_detail">Lalabas dito ang mga kahilingang sinusuri, pinaplano, o ginagawa.</string>
+    <string name="btp_empty_mine">Wala pang naisumite</string>
+    <string name="btp_empty_mine_detail">Ang mga kahilingang isinumite mula sa pag-install na ito ay lalabas dito, kasama ang mga nakabinbing kahilingan.</string>
+    <string name="btp_empty_implemented">Wala pang ipinatupad</string>
+    <string name="btp_empty_implemented_detail">Lalabas dito ang mga ipinatupad na kahilingan at mga tala sa paglabas nang hindi ipinapakita ang bilang ng mga boto.</string>
+    <string name="btp_remove_vote">Alisin ang boto</string>
+    <string name="btp_vote_for_request">Bumoto para sa kahilingang ito</string>
+    <string name="btp_reply">Sumulat ng mensahe</string>
+    <string name="btp_send_reply">Ipadala ang tugon</string>
+    <string name="btp_save">I-save</string>
+    <string name="btp_conversation">Pag-uusap</string>
+    <string name="btp_pending_approval">Naghihintay ng pag-apruba</string>
+    <string name="btp_message_removed">Inalis ang mensahe</string>
+    <string name="btp_admin">Team</string>
+    <string name="btp_user">Ikaw</string>
+    <string name="btp_other_user">User</string>
+    <string name="btp_edited">Na-edit</string>
+    <string name="btp_read_only">Mababasa lamang ang pag-uusap na ito.</string>
+    <string name="btp_edit_message">I-edit ang mensahe</string>
+    <string name="btp_back">Bumalik</string>
+    <string name="btp_error_title">Hindi ma-load ang mga kahilingan</string>
+    <string name="btp_status_pending">Nakabinbin</string>
+    <string name="btp_status_in_review">Sinusuri</string>
+    <string name="btp_status_planned">Nakaplano</string>
+    <string name="btp_status_in_progress">Ginagawa</string>
+    <string name="btp_status_implemented">Naipatupad</string>
+    <string name="btp_status_rejected">Tinanggihan</string>
+    <string name="btp_status_merged">Pinagsama</string>
+    <string name="btp_status_archived">Naka-archive</string>
+    <string name="btp_loading_requests">Nilo-load ang mga kahilingan…</string>
+</resources>

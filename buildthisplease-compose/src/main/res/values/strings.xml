@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btp_feature_requests">Feature requests</string>
+    <string name="btp_requests">Requests</string>
+    <string name="btp_mine">Mine</string>
+    <string name="btp_implemented">Implemented</string>
+    <string name="btp_done">Done</string>
+    <string name="btp_new_request">New request</string>
+    <string name="btp_title">Title</string>
+    <string name="btp_description">Description</string>
+    <string name="btp_submit">Submit request</string>
+    <string name="btp_email_optional">Email (optional)</string>
+    <string name="btp_character_count" translatable="false">%1$d/%2$d</string>
+    <string name="btp_invalid_email">Enter a valid email address</string>
+    <string name="btp_cancel">Cancel</string>
+    <string name="btp_try_again">Try again</string>
+    <string name="btp_empty_requests">No public requests</string>
+    <string name="btp_empty_requests_detail">Requests under review, planned, or being built will appear here.</string>
+    <string name="btp_empty_mine">Nothing submitted yet</string>
+    <string name="btp_empty_mine_detail">Requests submitted from this installation appear here, including pending requests.</string>
+    <string name="btp_empty_implemented">Nothing implemented yet</string>
+    <string name="btp_empty_implemented_detail">Implemented requests and release notes will appear here without vote totals.</string>
+    <string name="btp_remove_vote">Remove vote</string>
+    <string name="btp_vote_for_request">Vote for this request</string>
+    <string name="btp_reply">Write a message</string>
+    <string name="btp_send_reply">Send reply</string>
+    <string name="btp_save">Save</string>
+    <string name="btp_conversation">Conversation</string>
+    <string name="btp_pending_approval">Awaiting approval</string>
+    <string name="btp_message_removed">Message removed</string>
+    <string name="btp_admin">Team</string>
+    <string name="btp_user">You</string>
+    <string name="btp_other_user">User</string>
+    <string name="btp_edited">Edited</string>
+    <string name="btp_read_only">This conversation is read-only.</string>
+    <string name="btp_edit_message">Edit message</string>
+    <string name="btp_back">Back</string>
+    <string name="btp_error_title">Couldn’t load requests</string>
+    <string name="btp_loading_requests">Loading requests…</string>
+    <string name="btp_status_pending">Pending</string>
+    <string name="btp_status_in_review">In Review</string>
+    <string name="btp_status_planned">Planned</string>
+    <string name="btp_status_in_progress">In Progress</string>
+    <string name="btp_status_implemented">Implemented</string>
+    <string name="btp_status_rejected">Rejected</string>
+    <string name="btp_status_merged">Merged</string>
+    <string name="btp_status_archived">Archived</string>
+</resources>

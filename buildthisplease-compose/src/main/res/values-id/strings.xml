@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Permintaan fitur</string>
+    <string name="btp_requests">Permintaan</string>
+    <string name="btp_mine">Milik saya</string>
+    <string name="btp_implemented">Telah diterapkan</string>
+    <string name="btp_done">Selesai</string>
+    <string name="btp_new_request">Permintaan baru</string>
+    <string name="btp_title">Judul</string>
+    <string name="btp_description">Deskripsi</string>
+    <string name="btp_submit">Kirim permintaan</string>
+    <string name="btp_email_optional">Email (opsional)</string>
+    <string name="btp_invalid_email">Masukkan alamat email yang valid</string>
+    <string name="btp_cancel">Batalkan</string>
+    <string name="btp_try_again">Coba lagi</string>
+    <string name="btp_empty_requests">Tidak ada permintaan publik</string>
+    <string name="btp_empty_requests_detail">Permintaan yang sedang ditinjau, direncanakan, atau dikembangkan akan muncul di sini.</string>
+    <string name="btp_empty_mine">Belum ada yang dikirimkan</string>
+    <string name="btp_empty_mine_detail">Permintaan yang dikirimkan dari instalasi ini muncul di sini, termasuk permintaan yang tertunda.</string>
+    <string name="btp_empty_implemented">Belum ada yang diterapkan</string>
+    <string name="btp_empty_implemented_detail">Permintaan yang telah diterapkan dan catatan rilis akan muncul di sini tanpa menampilkan jumlah suara.</string>
+    <string name="btp_remove_vote">Tarik suara</string>
+    <string name="btp_vote_for_request">Beri suara untuk permintaan ini</string>
+    <string name="btp_reply">Tulis pesan</string>
+    <string name="btp_send_reply">Kirim balasan</string>
+    <string name="btp_save">Simpan</string>
+    <string name="btp_conversation">Percakapan</string>
+    <string name="btp_pending_approval">Menunggu persetujuan</string>
+    <string name="btp_message_removed">Pesan dihapus</string>
+    <string name="btp_admin">Tim</string>
+    <string name="btp_user">Anda</string>
+    <string name="btp_other_user">Pengguna</string>
+    <string name="btp_edited">Diedit</string>
+    <string name="btp_read_only">Percakapan ini hanya dapat dibaca.</string>
+    <string name="btp_edit_message">Sunting pesan</string>
+    <string name="btp_back">Kembali</string>
+    <string name="btp_error_title">Tidak dapat memuat permintaan</string>
+    <string name="btp_status_pending">Menunggu tinjauan</string>
+    <string name="btp_status_in_review">Dalam peninjauan</string>
+    <string name="btp_status_planned">Direncanakan</string>
+    <string name="btp_status_in_progress">Sedang dikerjakan</string>
+    <string name="btp_status_implemented">Telah diterapkan</string>
+    <string name="btp_status_rejected">Ditolak</string>
+    <string name="btp_status_merged">Digabungkan</string>
+    <string name="btp_status_archived">Diarsipkan</string>
+    <string name="btp_loading_requests">Memuat permintaan…</string>
+</resources>

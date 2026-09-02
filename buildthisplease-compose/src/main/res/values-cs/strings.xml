@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Požadavky na funkce</string>
+    <string name="btp_requests">Požadavky</string>
+    <string name="btp_mine">Moje</string>
+    <string name="btp_implemented">Realizováno</string>
+    <string name="btp_done">Hotovo</string>
+    <string name="btp_new_request">Nový požadavek</string>
+    <string name="btp_title">Název</string>
+    <string name="btp_description">Popis</string>
+    <string name="btp_submit">Odeslat požadavek</string>
+    <string name="btp_email_optional">E-mail (volitelné)</string>
+    <string name="btp_invalid_email">Zadejte platnou e-mailovou adresu</string>
+    <string name="btp_cancel">Zrušit</string>
+    <string name="btp_try_again">Zkuste to znovu</string>
+    <string name="btp_empty_requests">Nejsou k dispozici žádné veřejné požadavky</string>
+    <string name="btp_empty_requests_detail">Zde se zobrazí požadavky, které se posuzují, jsou naplánované nebo ve vývoji.</string>
+    <string name="btp_empty_mine">Zatím nebyl odeslán žádný požadavek</string>
+    <string name="btp_empty_mine_detail">Zde se zobrazí požadavky odeslané z této instalace, včetně čekajících požadavků.</string>
+    <string name="btp_empty_implemented">Zatím nic implementováno</string>
+    <string name="btp_empty_implemented_detail">Realizované požadavky a poznámky k vydání se zde zobrazí bez počtu hlasů.</string>
+    <string name="btp_remove_vote">Odebrat hlas</string>
+    <string name="btp_vote_for_request">Hlasovat pro tento požadavek</string>
+    <string name="btp_reply">Napište zprávu</string>
+    <string name="btp_send_reply">Odeslat odpověď</string>
+    <string name="btp_save">Uložit</string>
+    <string name="btp_conversation">Konverzace</string>
+    <string name="btp_pending_approval">Čeká na schválení</string>
+    <string name="btp_message_removed">Zpráva byla odstraněna</string>
+    <string name="btp_admin">Tým</string>
+    <string name="btp_user">Vy</string>
+    <string name="btp_other_user">Uživatel</string>
+    <string name="btp_edited">Upraveno</string>
+    <string name="btp_read_only">Tato konverzace je pouze pro čtení.</string>
+    <string name="btp_edit_message">Upravit zprávu</string>
+    <string name="btp_back">Zpět</string>
+    <string name="btp_error_title">Požadavky se nepodařilo načíst</string>
+    <string name="btp_status_pending">Čeká</string>
+    <string name="btp_status_in_review">Posuzuje se</string>
+    <string name="btp_status_planned">Naplánováno</string>
+    <string name="btp_status_in_progress">Probíhá</string>
+    <string name="btp_status_implemented">Realizováno</string>
+    <string name="btp_status_rejected">Zamítnuto</string>
+    <string name="btp_status_merged">Sloučeno</string>
+    <string name="btp_status_archived">Archivováno</string>
+    <string name="btp_loading_requests">Načítání požadavků…</string>
+</resources>

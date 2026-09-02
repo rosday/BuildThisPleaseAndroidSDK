@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Functieverzoeken</string>
+    <string name="btp_requests">Verzoeken</string>
+    <string name="btp_mine">Mijn verzoeken</string>
+    <string name="btp_implemented">Geïmplementeerd</string>
+    <string name="btp_done">Klaar</string>
+    <string name="btp_new_request">Nieuw verzoek</string>
+    <string name="btp_title">Titel</string>
+    <string name="btp_description">Beschrijving</string>
+    <string name="btp_submit">Verzoek indienen</string>
+    <string name="btp_email_optional">E-mail (optioneel)</string>
+    <string name="btp_invalid_email">Voer een geldig e-mailadres in</string>
+    <string name="btp_cancel">Annuleer</string>
+    <string name="btp_try_again">Probeer het opnieuw</string>
+    <string name="btp_empty_requests">Geen openbare verzoeken</string>
+    <string name="btp_empty_requests_detail">Verzoeken die worden beoordeeld, gepland of in uitvoering zijn, worden hier weergegeven.</string>
+    <string name="btp_empty_mine">Nog niets ingediend</string>
+    <string name="btp_empty_mine_detail">Verzoeken die vanuit deze installatie zijn ingediend, worden hier weergegeven, inclusief openstaande verzoeken.</string>
+    <string name="btp_empty_implemented">Nog niets geïmplementeerd</string>
+    <string name="btp_empty_implemented_detail">Geïmplementeerde verzoeken en release-opmerkingen verschijnen hier zonder het aantal stemmen.</string>
+    <string name="btp_remove_vote">Stem verwijderen</string>
+    <string name="btp_vote_for_request">Stem op dit verzoek</string>
+    <string name="btp_reply">Schrijf een bericht</string>
+    <string name="btp_send_reply">Antwoord verzenden</string>
+    <string name="btp_save">Opslaan</string>
+    <string name="btp_conversation">Gesprek</string>
+    <string name="btp_pending_approval">In afwachting van goedkeuring</string>
+    <string name="btp_message_removed">Bericht verwijderd</string>
+    <string name="btp_admin">Team</string>
+    <string name="btp_user">Jij</string>
+    <string name="btp_other_user">Gebruiker</string>
+    <string name="btp_edited">Bewerkt</string>
+    <string name="btp_read_only">Dit gesprek is alleen-lezen.</string>
+    <string name="btp_edit_message">Bericht bewerken</string>
+    <string name="btp_back">Terug</string>
+    <string name="btp_error_title">Kan verzoeken niet laden</string>
+    <string name="btp_status_pending">In afwachting</string>
+    <string name="btp_status_in_review">In beoordeling</string>
+    <string name="btp_status_planned">Gepland</string>
+    <string name="btp_status_in_progress">In uitvoering</string>
+    <string name="btp_status_implemented">Geïmplementeerd</string>
+    <string name="btp_status_rejected">Afgewezen</string>
+    <string name="btp_status_merged">Samengevoegd</string>
+    <string name="btp_status_archived">Gearchiveerd</string>
+    <string name="btp_loading_requests">Verzoeken laden…</string>
+</resources>

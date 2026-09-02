@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Funktionswünsche</string>
+    <string name="btp_requests">Wünsche</string>
+    <string name="btp_mine">Meine</string>
+    <string name="btp_implemented">Umgesetzt</string>
+    <string name="btp_done">Erledigt</string>
+    <string name="btp_new_request">Neuer Wunsch</string>
+    <string name="btp_title">Titel</string>
+    <string name="btp_description">Beschreibung</string>
+    <string name="btp_submit">Wunsch einreichen</string>
+    <string name="btp_email_optional">E-Mail (optional)</string>
+    <string name="btp_invalid_email">Gib eine gültige E-Mail-Adresse ein</string>
+    <string name="btp_cancel">Abbrechen</string>
+    <string name="btp_try_again">Erneut versuchen</string>
+    <string name="btp_empty_requests">Keine öffentlichen Wünsche</string>
+    <string name="btp_empty_requests_detail">Hier werden Wünsche angezeigt, die derzeit geprüft, geplant oder umgesetzt werden.</string>
+    <string name="btp_empty_mine">Noch nichts eingereicht</string>
+    <string name="btp_empty_mine_detail">Von dieser Installation eingereichte Wünsche werden hier angezeigt, einschließlich noch nicht freigegebener Wünsche.</string>
+    <string name="btp_empty_implemented">Noch nichts umgesetzt</string>
+    <string name="btp_empty_implemented_detail">Umgesetzte Wünsche und Versionshinweise werden hier ohne Stimmenzahl angezeigt.</string>
+    <string name="btp_remove_vote">Stimme entfernen</string>
+    <string name="btp_vote_for_request">Für diesen Wunsch stimmen</string>
+    <string name="btp_reply">Nachricht schreiben</string>
+    <string name="btp_send_reply">Antwort senden</string>
+    <string name="btp_save">Speichern</string>
+    <string name="btp_conversation">Unterhaltung</string>
+    <string name="btp_pending_approval">Wartet auf Freigabe</string>
+    <string name="btp_message_removed">Nachricht entfernt</string>
+    <string name="btp_admin">Team</string>
+    <string name="btp_user">Du</string>
+    <string name="btp_other_user">Benutzer</string>
+    <string name="btp_edited">Bearbeitet</string>
+    <string name="btp_read_only">Diese Unterhaltung ist schreibgeschützt.</string>
+    <string name="btp_edit_message">Nachricht bearbeiten</string>
+    <string name="btp_back">Zurück</string>
+    <string name="btp_error_title">Wünsche konnten nicht geladen werden</string>
+    <string name="btp_status_pending">Ausstehend</string>
+    <string name="btp_status_in_review">In Prüfung</string>
+    <string name="btp_status_planned">Geplant</string>
+    <string name="btp_status_in_progress">In Arbeit</string>
+    <string name="btp_status_implemented">Umgesetzt</string>
+    <string name="btp_status_rejected">Abgelehnt</string>
+    <string name="btp_status_merged">Zusammengeführt</string>
+    <string name="btp_status_archived">Archiviert</string>
+    <string name="btp_loading_requests">Anfragen werden geladen…</string>
+</resources>

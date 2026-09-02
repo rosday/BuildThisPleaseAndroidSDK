@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sample_title">Build This Please</string>
+    <string name="sample_menu_heading">Example app menu</string>
+    <string name="sample_explanation">This demonstrates embedding BuildThisPlease as a destination inside an existing app menu and navigation flow.</string>
+    <string name="sample_developer_controls">Developer controls</string>
+    <string name="sample_done">Done</string>
+    <string name="sample_run_mode">Run mode</string>
+    <string name="sample_environment">Environment</string>
+    <string name="sample_subscription">Subscription</string>
+    <string name="sample_reported_state">Reported state</string>
+    <string name="sample_mock_response">Mock response</string>
+    <string name="sample_scenario">Scenario</string>
+    <string name="sample_reset">Reset deterministic data</string>
+    <string name="sample_appearance">Appearance</string>
+    <string name="sample_force_dark">Force dark mode</string>
+    <string name="sample_runtime">Runtime</string>
+    <string name="sample_package">Package</string>
+    <string name="sample_integrity">Integrity</string>
+    <string name="sample_mock_integrity">Deterministic mock</string>
+    <string name="sample_play_integrity">Google Play Integrity</string>
+    <string name="sample_cancel">Cancel</string>
+</resources>

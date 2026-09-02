@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Özellik istekleri</string>
+    <string name="btp_requests">İstekler</string>
+    <string name="btp_mine">Benimkiler</string>
+    <string name="btp_implemented">Uygulandı</string>
+    <string name="btp_done">Tamamlandı</string>
+    <string name="btp_new_request">Yeni istek</string>
+    <string name="btp_title">Başlık</string>
+    <string name="btp_description">Açıklama</string>
+    <string name="btp_submit">İsteği gönder</string>
+    <string name="btp_email_optional">E-posta (isteğe bağlı)</string>
+    <string name="btp_invalid_email">Geçerli bir e-posta adresi girin</string>
+    <string name="btp_cancel">İptal</string>
+    <string name="btp_try_again">Tekrar dene</string>
+    <string name="btp_empty_requests">Herkese açık istek yok</string>
+    <string name="btp_empty_requests_detail">İncelenen, planlanan veya geliştirilmekte olan istekler burada görünür.</string>
+    <string name="btp_empty_mine">Henüz hiçbir şey gönderilmedi</string>
+    <string name="btp_empty_mine_detail">Bu kurulumdan gönderilen istekler, bekleyen istekler de dahil olmak üzere burada görünür.</string>
+    <string name="btp_empty_implemented">Henüz hiçbir şey uygulanmadı</string>
+    <string name="btp_empty_implemented_detail">Uygulanan istekler ve sürüm notları, oy sayıları gösterilmeden burada görünür.</string>
+    <string name="btp_remove_vote">Oyu kaldır</string>
+    <string name="btp_vote_for_request">Bu isteğe oy ver</string>
+    <string name="btp_reply">Bir mesaj yaz</string>
+    <string name="btp_send_reply">Yanıt gönder</string>
+    <string name="btp_save">Kaydet</string>
+    <string name="btp_conversation">Sohbet</string>
+    <string name="btp_pending_approval">Onay bekleniyor</string>
+    <string name="btp_message_removed">Mesaj kaldırıldı</string>
+    <string name="btp_admin">Ekip</string>
+    <string name="btp_user">Sen</string>
+    <string name="btp_other_user">Kullanıcı</string>
+    <string name="btp_edited">Düzenlendi</string>
+    <string name="btp_read_only">Bu konuşma salt okunurdur.</string>
+    <string name="btp_edit_message">Mesajı düzenle</string>
+    <string name="btp_back">Geri</string>
+    <string name="btp_error_title">İstekler yüklenemedi</string>
+    <string name="btp_status_pending">Beklemede</string>
+    <string name="btp_status_in_review">İnceleniyor</string>
+    <string name="btp_status_planned">Planlandı</string>
+    <string name="btp_status_in_progress">Devam ediyor</string>
+    <string name="btp_status_implemented">Uygulandı</string>
+    <string name="btp_status_rejected">Reddedildi</string>
+    <string name="btp_status_merged">Birleştirildi</string>
+    <string name="btp_status_archived">Arşivlendi</string>
+    <string name="btp_loading_requests">İstekler yükleniyor…</string>
+</resources>

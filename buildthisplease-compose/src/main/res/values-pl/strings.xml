@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Propozycje funkcji</string>
+    <string name="btp_requests">Zgłoszenia</string>
+    <string name="btp_mine">Moje</string>
+    <string name="btp_implemented">Wdrożone</string>
+    <string name="btp_done">Gotowe</string>
+    <string name="btp_new_request">Nowe zgłoszenie</string>
+    <string name="btp_title">Tytuł</string>
+    <string name="btp_description">Opis</string>
+    <string name="btp_submit">Wyślij zgłoszenie</string>
+    <string name="btp_email_optional">E-mail (opcjonalnie)</string>
+    <string name="btp_invalid_email">Wpisz prawidłowy adres e-mail</string>
+    <string name="btp_cancel">Anuluj</string>
+    <string name="btp_try_again">Spróbuj ponownie</string>
+    <string name="btp_empty_requests">Brak publicznych zgłoszeń</string>
+    <string name="btp_empty_requests_detail">Tutaj pojawią się zgłoszenia weryfikowane, zaplanowane lub w trakcie realizacji.</string>
+    <string name="btp_empty_mine">Nic jeszcze nie zostało przesłane</string>
+    <string name="btp_empty_mine_detail">Tutaj pojawią się zgłoszenia wysłane z tej instalacji, w tym zgłoszenia oczekujące.</string>
+    <string name="btp_empty_implemented">Jeszcze nic nie zostało wdrożone</string>
+    <string name="btp_empty_implemented_detail">Tutaj pojawią się wdrożone zgłoszenia i informacje o wersji, bez liczby głosów.</string>
+    <string name="btp_remove_vote">Usuń głos</string>
+    <string name="btp_vote_for_request">Zagłosuj na to zgłoszenie</string>
+    <string name="btp_reply">Napisz wiadomość</string>
+    <string name="btp_send_reply">Wyślij odpowiedź</string>
+    <string name="btp_save">Zapisz</string>
+    <string name="btp_conversation">Rozmowa</string>
+    <string name="btp_pending_approval">Oczekiwanie na zatwierdzenie</string>
+    <string name="btp_message_removed">Wiadomość została usunięta</string>
+    <string name="btp_admin">Zespół</string>
+    <string name="btp_user">Ty</string>
+    <string name="btp_other_user">Użytkownik</string>
+    <string name="btp_edited">Edytowane</string>
+    <string name="btp_read_only">Ta rozmowa jest tylko do odczytu.</string>
+    <string name="btp_edit_message">Edytuj wiadomość</string>
+    <string name="btp_back">Wstecz</string>
+    <string name="btp_error_title">Nie udało się wczytać zgłoszeń</string>
+    <string name="btp_status_pending">Oczekujące</string>
+    <string name="btp_status_in_review">W trakcie weryfikacji</string>
+    <string name="btp_status_planned">Zaplanowane</string>
+    <string name="btp_status_in_progress">W trakcie</string>
+    <string name="btp_status_implemented">Wdrożone</string>
+    <string name="btp_status_rejected">Odrzucone</string>
+    <string name="btp_status_merged">Połączone</string>
+    <string name="btp_status_archived">Zarchiwizowane</string>
+    <string name="btp_loading_requests">Wczytywanie próśb…</string>
+</resources>

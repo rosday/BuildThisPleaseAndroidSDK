@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Funksjonsønsker</string>
+    <string name="btp_requests">Ønsker</string>
+    <string name="btp_mine">Mine</string>
+    <string name="btp_implemented">Gjennomført</string>
+    <string name="btp_done">Ferdige</string>
+    <string name="btp_new_request">Nytt ønske</string>
+    <string name="btp_title">Tittel</string>
+    <string name="btp_description">Beskrivelse</string>
+    <string name="btp_submit">Send inn ønske</string>
+    <string name="btp_email_optional">E-post (valgfritt)</string>
+    <string name="btp_invalid_email">Skriv inn en gyldig e-postadresse</string>
+    <string name="btp_cancel">Avbryt</string>
+    <string name="btp_try_again">Prøv igjen</string>
+    <string name="btp_empty_requests">Ingen offentlige ønsker</string>
+    <string name="btp_empty_requests_detail">Ønsker som vurderes, er planlagt eller under utvikling, vises her.</string>
+    <string name="btp_empty_mine">Ingen ønsker er sendt inn ennå</string>
+    <string name="btp_empty_mine_detail">Ønsker sendt inn fra denne installasjonen vises her, inkludert ventende ønsker.</string>
+    <string name="btp_empty_implemented">Ingen ønsker er gjennomført ennå</string>
+    <string name="btp_empty_implemented_detail">Gjennomførte ønsker og versjonsmerknader vises her uten stemmetall.</string>
+    <string name="btp_remove_vote">Fjern stemme</string>
+    <string name="btp_vote_for_request">Stem på dette ønsket</string>
+    <string name="btp_reply">Skriv en melding</string>
+    <string name="btp_send_reply">Send svar</string>
+    <string name="btp_save">Lagre</string>
+    <string name="btp_conversation">Samtale</string>
+    <string name="btp_pending_approval">Venter på godkjenning</string>
+    <string name="btp_message_removed">Meldingen er fjernet</string>
+    <string name="btp_admin">Teamet</string>
+    <string name="btp_user">Du</string>
+    <string name="btp_other_user">Bruker</string>
+    <string name="btp_edited">Redigert</string>
+    <string name="btp_read_only">Denne samtalen er skrivebeskyttet.</string>
+    <string name="btp_edit_message">Rediger melding</string>
+    <string name="btp_back">Tilbake</string>
+    <string name="btp_error_title">Kunne ikke laste inn ønsker</string>
+    <string name="btp_status_pending">Venter</string>
+    <string name="btp_status_in_review">Til vurdering</string>
+    <string name="btp_status_planned">Planlagt</string>
+    <string name="btp_status_in_progress">Pågår</string>
+    <string name="btp_status_implemented">Gjennomført</string>
+    <string name="btp_status_rejected">Avvist</string>
+    <string name="btp_status_merged">Slått sammen</string>
+    <string name="btp_status_archived">Arkivert</string>
+    <string name="btp_loading_requests">Laster inn forespørsler…</string>
+</resources>

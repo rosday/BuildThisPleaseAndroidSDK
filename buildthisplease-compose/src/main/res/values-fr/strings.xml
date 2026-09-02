@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="btp_feature_requests">Demandes de fonctionnalités</string>
+    <string name="btp_requests">Demandes</string>
+    <string name="btp_mine">Les miennes</string>
+    <string name="btp_implemented">Réalisées</string>
+    <string name="btp_done">Terminées</string>
+    <string name="btp_new_request">Nouvelle demande</string>
+    <string name="btp_title">Titre</string>
+    <string name="btp_description">Description</string>
+    <string name="btp_submit">Soumettre la demande</string>
+    <string name="btp_email_optional">E-mail (facultatif)</string>
+    <string name="btp_invalid_email">Saisissez une adresse e-mail valide</string>
+    <string name="btp_cancel">Annuler</string>
+    <string name="btp_try_again">Réessayez</string>
+    <string name="btp_empty_requests">Aucune demande publique</string>
+    <string name="btp_empty_requests_detail">Les demandes en cours d’examen, planifiées ou en développement apparaîtront ici.</string>
+    <string name="btp_empty_mine">Rien de soumis pour l\'instant</string>
+    <string name="btp_empty_mine_detail">Les demandes soumises à partir de cette installation apparaissent ici, y compris les demandes en attente.</string>
+    <string name="btp_empty_implemented">Aucune demande réalisée pour le moment</string>
+    <string name="btp_empty_implemented_detail">Les demandes réalisées et les notes de version apparaîtront ici sans afficher le nombre de votes.</string>
+    <string name="btp_remove_vote">Supprimer le vote</string>
+    <string name="btp_vote_for_request">Votez pour cette demande</string>
+    <string name="btp_reply">Écrire un message</string>
+    <string name="btp_send_reply">Envoyer la réponse</string>
+    <string name="btp_save">Enregistrer</string>
+    <string name="btp_conversation">Conversation</string>
+    <string name="btp_pending_approval">En attente d’approbation</string>
+    <string name="btp_message_removed">Message supprimé</string>
+    <string name="btp_admin">Équipe</string>
+    <string name="btp_user">Vous</string>
+    <string name="btp_other_user">Utilisateur</string>
+    <string name="btp_edited">Modifié</string>
+    <string name="btp_read_only">Cette conversation est en lecture seule.</string>
+    <string name="btp_edit_message">Modifier le message</string>
+    <string name="btp_back">Retour</string>
+    <string name="btp_error_title">Impossible de charger les demandes</string>
+    <string name="btp_status_pending">En attente</string>
+    <string name="btp_status_in_review">En cours d’examen</string>
+    <string name="btp_status_planned">Planifiée</string>
+    <string name="btp_status_in_progress">En cours</string>
+    <string name="btp_status_implemented">Réalisées</string>
+    <string name="btp_status_rejected">Rejetée</string>
+    <string name="btp_status_merged">Fusionnée</string>
+    <string name="btp_status_archived">Archivée</string>
+    <string name="btp_loading_requests">Chargement des demandes…</string>
+</resources>
