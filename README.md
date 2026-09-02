@@ -21,7 +21,7 @@ includeBuild("../BuildThisPleaseAndroidSDK")
 Then add:
 
 ```kotlin
-implementation("io.buildthisplease:buildthisplease-compose:0.1.0")
+implementation("io.github.rosday:buildthisplease-compose:0.1.1")
 ```
 
 Create one client at application scope and display it from Compose:
@@ -133,6 +133,6 @@ The SDK does not request contacts, advertising identifiers, location, or media p
 
 ## Distribution
 
-The SDK is released under the MIT License. Tagged GitHub releases support the local composite-build integration documented above. Maven Central is optional; publishing there will additionally require source/javadoc artifacts, signing keys, and Maven Central release metadata.
+The SDK is released under the MIT License. Tagged releases are published to Maven Central as `io.github.rosday:buildthisplease-core` and `io.github.rosday:buildthisplease-compose`. The local composite-build integration remains available for SDK development.
 
 See [SECURITY.md](SECURITY.md) for the trust model and operational cautions.
