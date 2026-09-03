@@ -269,7 +269,7 @@ private fun TicketBoard(
                             contentColor = MaterialTheme.colorScheme.onPrimary,
                         ),
                     ) {
-                        Icon(Icons.Default.Add, stringResource(R.string.btp_new_request), modifier = Modifier.size(20.dp))
+                        Icon(Icons.Default.Add, stringResource(R.string.btp_new_request))
                     }
                 },
             )
