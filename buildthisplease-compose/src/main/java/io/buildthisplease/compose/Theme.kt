@@ -61,13 +61,20 @@ fun BuildThisPleaseMaterialTheme(
     val colorScheme = accent?.let { color ->
         baseScheme.copy(
             primary = color,
-            onPrimary = if (color.luminance() > 0.5f) Color.Black else Color.White,
+            onPrimary = color.contrastingContentColor(),
         )
     } ?: baseScheme
 
     MaterialTheme(colorScheme = colorScheme) {
         CompositionLocalProvider(LocalBuildThisPleaseDarkTheme provides darkTheme, content = content)
     }
+}
+
+internal fun Color.contrastingContentColor(): Color {
+    val backgroundLuminance = luminance()
+    val blackContrast = (backgroundLuminance + 0.05f) / 0.05f
+    val whiteContrast = 1.05f / (backgroundLuminance + 0.05f)
+    return if (blackContrast >= whiteContrast) Color.Black else Color.White
 }
 
 /** Matches the section hierarchy used by PepFlow's Android UI. */
