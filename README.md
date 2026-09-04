@@ -21,7 +21,7 @@ includeBuild("../BuildThisPleaseAndroidSDK")
 Then add:
 
 ```kotlin
-implementation("io.github.rosday:buildthisplease-compose:0.1.2")
+    implementation("io.github.rosday:buildthisplease-compose:0.1.3")
 ```
 
 Create one client at application scope and display it from Compose:
