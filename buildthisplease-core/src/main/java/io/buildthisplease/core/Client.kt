@@ -46,7 +46,7 @@ class BuildThisPleaseClient(
         get("/v1/tickets/${ticketId.pathComponent()}/comments", CommentPage.serializer()).items
 
     override suspend fun createTicket(title: String, description: String, email: String?, idempotencyKey: String): Ticket {
-        val body = TicketInput(title.trim(), description.trim(), email.normalized()?.lowercase())
+        val body = TicketInput(title.trim(), description.trim(), email.normalized()?.lowercase(), config.appVersion.normalized())
         return mutate("POST", "/v1/tickets", body, TicketInput.serializer(), TicketEnvelope.serializer(), idempotencyKey).ticket
     }
 
@@ -240,7 +240,7 @@ internal val buildThisPleaseJson = Json {
     explicitNulls = false
 }
 
-@Serializable internal data class TicketInput(val title: String, val description: String, val email: String? = null)
+@Serializable internal data class TicketInput(val title: String, val description: String, val email: String? = null, val appVersion: String? = null)
 @Serializable private data class CommentInput(val body: String)
 @Serializable private data class SubscriptionInput(val status: SubscriptionStatus, val observedAt: String)
 @Serializable private data class IdentityInput(val revenueCatAppUserId: String? = null, val userEmail: String? = null)

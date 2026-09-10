@@ -3,9 +3,16 @@ package io.buildthisplease.core
 import kotlinx.serialization.encodeToString
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class ClientContractTest {
+    @Test
+    fun `ticket payload carries the submission app version`() {
+        val ticket = buildThisPleaseJson.encodeToString(TicketInput("Title", "Description", appVersion = "2.4.1"))
+        assertTrue(ticket.contains("\"appVersion\":\"2.4.1\""))
+    }
+
     @Test
     fun `optional values are omitted from registration and ticket payloads`() {
         val registration = buildThisPleaseJson.encodeToString(
