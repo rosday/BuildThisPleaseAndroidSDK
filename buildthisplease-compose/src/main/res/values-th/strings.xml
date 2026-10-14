@@ -44,4 +44,8 @@
     <string name="btp_status_merged">รวมแล้ว</string>
     <string name="btp_status_archived">เก็บถาวรแล้ว</string>
     <string name="btp_loading_requests">กำลังโหลดคำขอ…</string>
+    <string name="btp_translating">กำลังแปล…</string>
+    <string name="btp_translated">แปลแล้ว</string>
+    <string name="btp_show_original">แสดงต้นฉบับ</string>
+    <string name="btp_show_translation">แสดงคำแปล</string>
 </resources>

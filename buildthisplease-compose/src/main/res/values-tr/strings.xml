@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Birleştirildi</string>
     <string name="btp_status_archived">Arşivlendi</string>
     <string name="btp_loading_requests">İstekler yükleniyor…</string>
+    <string name="btp_translating">Çevriliyor…</string>
+    <string name="btp_translated">Çevrildi</string>
+    <string name="btp_show_original">Orijinali göster</string>
+    <string name="btp_show_translation">Çeviriyi göster</string>
 </resources>

@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Mesclada</string>
     <string name="btp_status_archived">Arquivada</string>
     <string name="btp_loading_requests">Carregando solicitações…</string>
+    <string name="btp_translating">Traduzindo…</string>
+    <string name="btp_translated">Traduzido</string>
+    <string name="btp_show_original">Mostrar original</string>
+    <string name="btp_show_translation">Mostrar tradução</string>
 </resources>

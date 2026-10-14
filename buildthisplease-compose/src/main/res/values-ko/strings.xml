@@ -44,4 +44,8 @@
     <string name="btp_status_merged">병합됨</string>
     <string name="btp_status_archived">보관됨</string>
     <string name="btp_loading_requests">요청을 불러오는 중…</string>
+    <string name="btp_translating">번역 중…</string>
+    <string name="btp_translated">번역됨</string>
+    <string name="btp_show_original">원문 보기</string>
+    <string name="btp_show_translation">번역 보기</string>
 </resources>

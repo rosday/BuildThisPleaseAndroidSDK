@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Digabungkan</string>
     <string name="btp_status_archived">Diarsipkan</string>
     <string name="btp_loading_requests">Memuat permintaan…</string>
+    <string name="btp_translating">Menerjemahkan…</string>
+    <string name="btp_translated">Diterjemahkan</string>
+    <string name="btp_show_original">Tampilkan aslinya</string>
+    <string name="btp_show_translation">Tampilkan terjemahan</string>
 </resources>

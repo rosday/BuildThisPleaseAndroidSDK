@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Об’єднано</string>
     <string name="btp_status_archived">В архіві</string>
     <string name="btp_loading_requests">Завантаження запитів…</string>
+    <string name="btp_translating">Переклад…</string>
+    <string name="btp_translated">Перекладено</string>
+    <string name="btp_show_original">Показати оригінал</string>
+    <string name="btp_show_translation">Показати переклад</string>
 </resources>

@@ -115,35 +115,38 @@ fun BuildThisPleaseFeedback(
     onOpenRequest: ((ticketId: String) -> Unit)? = null,
     onCreateRequest: (() -> Unit)? = null,
     stateKey: String = "default",
+    translationProvider: BuildThisPleaseTranslationProvider? = null,
 ) {
     val model = feedbackViewModel(client, stateKey)
     val state by model.state.collectAsStateWithLifecycle()
     var creating by rememberSaveable { mutableStateOf(false) }
     BuildThisPleaseMaterialTheme(accent = theme.accent) {
-        CompositionLocalProvider(LocalBuildThisPleaseTheme provides theme) {
-            when {
-                creating -> CreateTicketScreen(
-                    isSaving = state.isActing,
-                    error = state.error,
-                    onDismiss = { model.clearError(); creating = false },
-                    onClearError = model::clearError,
-                    onCreate = { title, description, email, idempotencyKey ->
-                        model.create(title, description, email, idempotencyKey) { success ->
-                            if (success) creating = false
-                        }
-                    },
-                )
-                state.selectedTicket != null -> TicketDetail(model, state, modifier, onBack = model::closeTicket)
-                else -> TicketBoard(
-                    state = state,
-                    modifier = modifier,
-                    onBack = onBack,
-                    onCreate = { onCreateRequest?.invoke() ?: run { creating = true } },
-                    onRefresh = model::refreshCurrentSection,
-                    onSelectSection = model::selectSection,
-                    onOpen = { ticket -> onOpenRequest?.invoke(ticket.id) ?: model.open(ticket) },
-                    onVote = model::toggleVote,
-                )
+        FeedbackTranslationScope(translationProvider, client, enabled = !creating) {
+            CompositionLocalProvider(LocalBuildThisPleaseTheme provides theme) {
+                when {
+                    creating -> CreateTicketScreen(
+                        isSaving = state.isActing,
+                        error = state.error,
+                        onDismiss = { model.clearError(); creating = false },
+                        onClearError = model::clearError,
+                        onCreate = { title, description, email, idempotencyKey ->
+                            model.create(title, description, email, idempotencyKey) { success ->
+                                if (success) creating = false
+                            }
+                        },
+                    )
+                    state.selectedTicket != null -> TicketDetail(model, state, modifier, onBack = model::closeTicket)
+                    else -> TicketBoard(
+                        state = state,
+                        modifier = modifier,
+                        onBack = onBack,
+                        onCreate = { onCreateRequest?.invoke() ?: run { creating = true } },
+                        onRefresh = model::refreshCurrentSection,
+                        onSelectSection = model::selectSection,
+                        onOpen = { ticket -> onOpenRequest?.invoke(ticket.id) ?: model.open(ticket) },
+                        onVote = model::toggleVote,
+                    )
+                }
             }
         }
     }
@@ -159,21 +162,24 @@ fun BuildThisPleaseFeedbackList(
     theme: BuildThisPleaseTheme = BuildThisPleaseTheme(),
     onBack: (() -> Unit)? = null,
     stateKey: String = "default",
+    translationProvider: BuildThisPleaseTranslationProvider? = null,
 ) {
     val model = feedbackViewModel(client, stateKey)
     val state by model.state.collectAsStateWithLifecycle()
     BuildThisPleaseMaterialTheme(accent = theme.accent) {
-        CompositionLocalProvider(LocalBuildThisPleaseTheme provides theme) {
-            TicketBoard(
-                state = state,
-                modifier = modifier,
-                onBack = onBack,
-                onCreate = onCreateRequest,
-                onRefresh = model::refreshCurrentSection,
-                onSelectSection = model::selectSection,
-                onOpen = { onOpenTicket(it.id) },
-                onVote = model::toggleVote,
-            )
+        FeedbackTranslationScope(translationProvider, client) {
+            CompositionLocalProvider(LocalBuildThisPleaseTheme provides theme) {
+                TicketBoard(
+                    state = state,
+                    modifier = modifier,
+                    onBack = onBack,
+                    onCreate = onCreateRequest,
+                    onRefresh = model::refreshCurrentSection,
+                    onSelectSection = model::selectSection,
+                    onOpen = { onOpenTicket(it.id) },
+                    onVote = model::toggleVote,
+                )
+            }
         }
     }
 }
@@ -187,21 +193,24 @@ fun BuildThisPleaseTicketDetail(
     modifier: Modifier = Modifier,
     theme: BuildThisPleaseTheme = BuildThisPleaseTheme(),
     stateKey: String = "default",
+    translationProvider: BuildThisPleaseTranslationProvider? = null,
 ) {
     val model = feedbackViewModel(client, stateKey)
     val state by model.state.collectAsStateWithLifecycle()
     LaunchedEffect(ticketId) { model.open(ticketId) }
     BuildThisPleaseMaterialTheme(accent = theme.accent) {
-        CompositionLocalProvider(LocalBuildThisPleaseTheme provides theme) {
-            val selected = state.selectedTicket
-            if (selected?.id == ticketId) {
-                TicketDetail(model, state, modifier) { model.closeTicket(); onBack() }
-            } else {
-                Box(modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    if (state.error != null) ErrorState(state.error) { model.open(ticketId) }
-                    else CircularProgressIndicator()
+        FeedbackTranslationScope(translationProvider, client) {
+            CompositionLocalProvider(LocalBuildThisPleaseTheme provides theme) {
+                val selected = state.selectedTicket
+                if (selected?.id == ticketId) {
+                    TicketDetail(model, state, modifier) { model.closeTicket(); onBack() }
+                } else {
+                    Box(modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                        if (state.error != null) ErrorState(state.error) { model.open(ticketId) }
+                        else CircularProgressIndicator()
+                    }
+                    BackHandler(onBack = onBack)
                 }
-                BackHandler(onBack = onBack)
             }
         }
     }
@@ -449,8 +458,9 @@ private fun TicketListSkeleton() {
 
 @Composable
 private fun TicketCard(ticket: Ticket, implemented: Boolean, isVoting: Boolean, onOpen: () -> Unit, onVote: () -> Unit) {
+    val translation = rememberFeedbackTranslation(ticket.translationFields(), requireVisibility = true)
     Card(
-        modifier = Modifier.fillMaxWidth().widthIn(max = 760.dp).clickable(onClick = onOpen),
+        modifier = Modifier.fillMaxWidth().widthIn(max = 760.dp).then(translation.visibilityModifier).clickable(onClick = onOpen),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.buildThisPleaseSectionContainer),
         shape = RoundedCornerShape(23.dp),
     ) {
@@ -466,10 +476,11 @@ private fun TicketCard(ticket: Ticket, implemented: Boolean, isVoting: Boolean, 
             }
             Column(Modifier.weight(1f).padding(top = 14.dp, end = 14.dp, bottom = 14.dp), verticalArrangement = Arrangement.spacedBy(5.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text(ticket.title, Modifier.weight(1f), fontWeight = FontWeight.SemiBold, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                    Text(translation.text("title", ticket.title), Modifier.weight(1f), fontWeight = FontWeight.SemiBold, maxLines = 2, overflow = TextOverflow.Ellipsis)
                     if (!implemented) StatusLabel(ticket.status)
                 }
-                Text(ticket.implementationNote ?: ticket.description, maxLines = 3, overflow = TextOverflow.Ellipsis, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(ticket.implementationNote?.let { translation.text("note", it) } ?: translation.text("description", ticket.description), maxLines = 3, overflow = TextOverflow.Ellipsis, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                FeedbackTranslationDisclosure(translation)
             }
         }
     }
@@ -507,6 +518,7 @@ private fun VoteButton(ticket: Ticket, isVoting: Boolean, onVote: () -> Unit) {
 @Composable
 private fun TicketDetail(model: FeedbackViewModel, state: FeedbackUiState, modifier: Modifier, onBack: () -> Unit) {
     val ticket = requireNotNull(state.selectedTicket)
+    val translation = rememberFeedbackTranslation(ticket.translationFields())
     var reply by remember(ticket.id) { mutableStateOf("") }
     var replyIdempotencyKey by remember(ticket.id) { mutableStateOf(newIdempotencyKey()) }
     var editing by remember { mutableStateOf<Comment?>(null) }
@@ -524,7 +536,7 @@ private fun TicketDetail(model: FeedbackViewModel, state: FeedbackUiState, modif
                 BackHandler { model.closeTicket(); onBack() }
     Scaffold(
         modifier = modifier,
-        topBar = { TopAppBar(title = { Text(ticket.title, maxLines = 1, overflow = TextOverflow.Ellipsis) }, navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, stringResource(R.string.btp_back)) } }) },
+        topBar = { TopAppBar(title = { Text(translation.text("title", ticket.title), maxLines = 1, overflow = TextOverflow.Ellipsis) }, navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, stringResource(R.string.btp_back)) } }) },
         // The composer owns the navigation-bar inset so its surface can paint behind it.
         contentWindowInsets = WindowInsets(0),
     ) { padding ->
@@ -546,6 +558,7 @@ private fun TicketDetail(model: FeedbackViewModel, state: FeedbackUiState, modif
                                 ticket = ticket,
                                 isVoting = ticket.id in state.votingTicketIds,
                                 onVote = { model.toggleVote(ticket) },
+                                translation = translation,
                             )
                         }
                     }
@@ -613,7 +626,7 @@ private fun TicketDetail(model: FeedbackViewModel, state: FeedbackUiState, modif
 }
 
 @Composable
-private fun TicketDetailSummary(ticket: Ticket, isVoting: Boolean, onVote: () -> Unit) {
+private fun TicketDetailSummary(ticket: Ticket, isVoting: Boolean, onVote: () -> Unit, translation: TranslatedFeedbackGroup) {
     Card(
         modifier = Modifier.fillMaxWidth().widthIn(max = 700.dp),
         shape = RoundedCornerShape(23.dp),
@@ -639,13 +652,14 @@ private fun TicketDetailSummary(ticket: Ticket, isVoting: Boolean, onVote: () ->
                 verticalArrangement = Arrangement.spacedBy(10.dp),
             ) {
                 StatusLabel(ticket.status)
-                Text(ticket.description, style = MaterialTheme.typography.bodyLarge)
+                Text(translation.text("description", ticket.description), style = MaterialTheme.typography.bodyLarge)
                 ticket.implementationNote?.let { note ->
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.Top) {
                         Icon(Icons.Default.CheckCircle, contentDescription = null, tint = Color(0xFF2E7D32), modifier = Modifier.size(20.dp))
-                        Text(note, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Text(translation.text("note", note), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                 }
+                FeedbackTranslationDisclosure(translation)
             }
         }
     }
@@ -735,6 +749,10 @@ private fun ReplyComposer(
 
 @Composable
 private fun CommentBubble(comment: Comment, onEdit: () -> Unit) {
+    val translation = rememberFeedbackTranslation(
+        if (comment.isHidden) emptyList() else listOf(FeedbackTranslationField("body", comment.body.orEmpty())),
+        requireVisibility = true,
+    )
     val mine = comment.isMine
     val editable = mine && !comment.isHidden
     val editLabel = stringResource(R.string.btp_edit_message)
@@ -747,7 +765,7 @@ private fun CommentBubble(comment: Comment, onEdit: () -> Unit) {
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Bottom) {
         if (mine) Spacer(Modifier.width(52.dp))
         Column(
-            modifier = Modifier.weight(1f),
+            modifier = Modifier.weight(1f).then(translation.visibilityModifier),
             horizontalAlignment = if (mine) Alignment.End else Alignment.Start,
             verticalArrangement = Arrangement.spacedBy(5.dp),
         ) {
@@ -782,7 +800,7 @@ private fun CommentBubble(comment: Comment, onEdit: () -> Unit) {
                     },
                 ) {
                     Text(
-                        if (comment.isHidden) stringResource(R.string.btp_message_removed) else comment.body.orEmpty(),
+                        if (comment.isHidden) stringResource(R.string.btp_message_removed) else translation.text("body", comment.body.orEmpty()),
                         modifier = Modifier.padding(horizontal = 13.dp, vertical = 10.dp),
                         color = if (mine && !comment.isHidden) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface,
                         fontStyle = if (comment.isHidden) androidx.compose.ui.text.font.FontStyle.Italic else null,
@@ -801,6 +819,7 @@ private fun CommentBubble(comment: Comment, onEdit: () -> Unit) {
                 if (comment.isEdited) Text(stringResource(R.string.btp_edited), style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 if (!comment.isApproved) Text(stringResource(R.string.btp_pending_approval), style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
+            FeedbackTranslationDisclosure(translation, Modifier.padding(horizontal = 17.dp))
         }
         if (!mine) Spacer(Modifier.width(52.dp))
     }

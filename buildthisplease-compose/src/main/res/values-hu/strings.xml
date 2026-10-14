@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Egyesítve</string>
     <string name="btp_status_archived">Archiválva</string>
     <string name="btp_loading_requests">Kérelmek betöltése…</string>
+    <string name="btp_translating">Fordítás…</string>
+    <string name="btp_translated">Lefordítva</string>
+    <string name="btp_show_original">Eredeti megjelenítése</string>
+    <string name="btp_show_translation">Fordítás megjelenítése</string>
 </resources>

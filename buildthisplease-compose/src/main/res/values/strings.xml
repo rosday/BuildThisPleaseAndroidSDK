@@ -37,6 +37,11 @@
     <string name="btp_back">Back</string>
     <string name="btp_error_title">Couldn’t load requests</string>
     <string name="btp_loading_requests">Loading requests…</string>
+    <string name="btp_translating">Translating…</string>
+    <string name="btp_translated">Translated</string>
+    <string name="btp_translated_ai" translatable="false">%1$s · AI</string>
+    <string name="btp_show_original">Show original</string>
+    <string name="btp_show_translation">Show translation</string>
     <string name="btp_status_pending">Pending</string>
     <string name="btp_status_in_review">In Review</string>
     <string name="btp_status_planned">Planned</string>

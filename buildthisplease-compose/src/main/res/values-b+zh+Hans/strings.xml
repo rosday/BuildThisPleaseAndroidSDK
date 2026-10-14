@@ -44,4 +44,8 @@
     <string name="btp_status_merged">已合并</string>
     <string name="btp_status_archived">已归档</string>
     <string name="btp_loading_requests">正在加载请求…</string>
+    <string name="btp_translating">正在翻译…</string>
+    <string name="btp_translated">已翻译</string>
+    <string name="btp_show_original">显示原文</string>
+    <string name="btp_show_translation">显示译文</string>
 </resources>

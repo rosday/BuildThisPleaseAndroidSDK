@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Pinagsama</string>
     <string name="btp_status_archived">Naka-archive</string>
     <string name="btp_loading_requests">Nilo-load ang mga kahilingan…</string>
+    <string name="btp_translating">Isinasalin…</string>
+    <string name="btp_translated">Isinalin</string>
+    <string name="btp_show_original">Ipakita ang orihinal</string>
+    <string name="btp_show_translation">Ipakita ang salin</string>
 </resources>

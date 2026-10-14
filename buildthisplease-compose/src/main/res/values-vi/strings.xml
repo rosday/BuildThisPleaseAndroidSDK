@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Đã hợp nhất</string>
     <string name="btp_status_archived">Đã lưu trữ</string>
     <string name="btp_loading_requests">Đang tải yêu cầu…</string>
+    <string name="btp_translating">Đang dịch…</string>
+    <string name="btp_translated">Đã dịch</string>
+    <string name="btp_show_original">Hiển thị bản gốc</string>
+    <string name="btp_show_translation">Hiển thị bản dịch</string>
 </resources>

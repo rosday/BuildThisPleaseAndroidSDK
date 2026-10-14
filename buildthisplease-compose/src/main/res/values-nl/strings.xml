@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Samengevoegd</string>
     <string name="btp_status_archived">Gearchiveerd</string>
     <string name="btp_loading_requests">Verzoeken laden…</string>
+    <string name="btp_translating">Vertalen…</string>
+    <string name="btp_translated">Vertaald</string>
+    <string name="btp_show_original">Origineel tonen</string>
+    <string name="btp_show_translation">Vertaling tonen</string>
 </resources>

@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "BuildThisPleaseAndroidSDK"
 include(":buildthisplease-core", ":buildthisplease-compose", ":sample")
+include(":buildthisplease-nano", ":sample-nano")

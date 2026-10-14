@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Συγχωνεύτηκε</string>
     <string name="btp_status_archived">Αρχειοθετήθηκε</string>
     <string name="btp_loading_requests">Φόρτωση αιτημάτων…</string>
+    <string name="btp_translating">Γίνεται μετάφραση…</string>
+    <string name="btp_translated">Μεταφράστηκε</string>
+    <string name="btp_show_original">Προβολή πρωτοτύπου</string>
+    <string name="btp_show_translation">Προβολή μετάφρασης</string>
 </resources>

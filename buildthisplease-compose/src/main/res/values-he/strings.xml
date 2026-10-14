@@ -44,4 +44,8 @@
     <string name="btp_status_merged">מוזגה</string>
     <string name="btp_status_archived">בארכיון</string>
     <string name="btp_loading_requests">טוען בקשות…</string>
+    <string name="btp_translating">מתבצע תרגום…</string>
+    <string name="btp_translated">תורגם</string>
+    <string name="btp_show_original">הצגת המקור</string>
+    <string name="btp_show_translation">הצגת התרגום</string>
 </resources>

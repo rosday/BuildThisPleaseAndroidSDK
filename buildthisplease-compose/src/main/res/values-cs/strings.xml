@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Sloučeno</string>
     <string name="btp_status_archived">Archivováno</string>
     <string name="btp_loading_requests">Načítání požadavků…</string>
+    <string name="btp_translating">Překládání…</string>
+    <string name="btp_translated">Přeloženo</string>
+    <string name="btp_show_original">Zobrazit originál</string>
+    <string name="btp_show_translation">Zobrazit překlad</string>
 </resources>

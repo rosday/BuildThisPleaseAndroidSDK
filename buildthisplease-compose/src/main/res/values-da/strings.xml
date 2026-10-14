@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Sammenlagt</string>
     <string name="btp_status_archived">Arkiveret</string>
     <string name="btp_loading_requests">Indlæser anmodninger…</string>
+    <string name="btp_translating">Oversætter…</string>
+    <string name="btp_translated">Oversat</string>
+    <string name="btp_show_original">Vis original</string>
+    <string name="btp_show_translation">Vis oversættelse</string>
 </resources>

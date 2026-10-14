@@ -44,4 +44,8 @@
     <string name="btp_status_merged">Spojeno</string>
     <string name="btp_status_archived">Arhivirano</string>
     <string name="btp_loading_requests">Učitavanje zahtjeva…</string>
+    <string name="btp_translating">Prevođenje…</string>
+    <string name="btp_translated">Prevedeno</string>
+    <string name="btp_show_original">Prikaži izvornik</string>
+    <string name="btp_show_translation">Prikaži prijevod</string>
 </resources>

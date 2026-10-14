@@ -9,6 +9,8 @@ The Compose surface mirrors the iOS workflow: counted title and description fiel
 - `buildthisplease-core`: API client, encrypted installation session storage, Android Keystore signing, and Google Play Integrity proofs.
 - `buildthisplease-compose`: ready-to-use feature-request board and conversation UI.
 - `sample`: runnable mock-backed demonstration; no account or backend is required.
+- `buildthisplease-nano`: optional Gemini Nano translation adapter for hosts with minSdk 26+.
+- `sample-nano`: separate mock-feedback demonstration of the adapter; checks real device availability.
 
 ## Local integration
 
@@ -21,7 +23,7 @@ includeBuild("../BuildThisPleaseAndroidSDK")
 Then add:
 
 ```kotlin
-    implementation("io.github.rosday:buildthisplease-compose:0.1.4")
+    implementation("io.github.rosday:buildthisplease-compose:0.1.5")
 ```
 
 Create one client at application scope and display it from Compose:
@@ -95,6 +97,69 @@ unqualifiedResLocale=en
 
 The sample enables this configuration. The SDK does not change the host application's locale or require an in-app language picker. Shared translations can be refreshed with `python3 scripts/import_ios_localizations.py ../BuildThisPleaseSDK`; native-speaker review should remain part of release QA.
 
+## Optional on-device translation with Gemini Nano
+
+Core, Compose, and the original sample retain minSdk 24. The optional Nano artifact requires
+minSdk 26 because Google's Prompt API dependency requires it. Android version alone does not
+establish eligibility: the device must have a supported AICore model already installed and ready.
+
+For local composite-build integration, replace the Compose dependency with:
+
+```kotlin
+implementation("io.github.rosday:buildthisplease-nano:0.1.5")
+```
+
+The new artifact is available from this checkout; it will be available on Maven Central only after
+the next SDK release. It includes Compose transitively. Retain one provider alongside your client:
+
+```kotlin
+val translations = NanoTranslationProvider(
+    cacheNamespace = projectKey, // the same publishable project key used by this client
+    supportedLanguages = setOf("en", "es"), // source and target languages evaluated for your app
+)
+
+BuildThisPleaseFeedback(client = client, translationProvider = translations)
+```
+
+Pass the same provider to `BuildThisPleaseFeedbackList` and `BuildThisPleaseTicketDetail` when the
+host owns navigation. The host owns the provider; call `translations.close()` only after its
+feedback destinations have been disposed. Use a different namespace/provider for each project.
+
+The provider uses Nano only when `checkStatus()` returns `AVAILABLE`. `DOWNLOADABLE`, `DOWNLOADING`,
+`UNAVAILABLE`, readiness errors, and readiness timeouts leave original text visible. The SDK never
+calls the model download or warmup APIs, requests installation, offers a download prompt, or uses a
+cloud translation fallback. AICore may independently manage or update its shared system models.
+
+While the feedback screen is resumed, ticket titles, descriptions, implementation notes, and
+non-hidden messages are translated into the app's active language. Editing and sending retain the
+original text. Changed results display “Translated · AI” with “Show original” / “Show translation”
+controls. Empty, uncertain, same-language, and unsupported fields retain originals. Malformed,
+truncated, or failed results are not displayed; recoverable failures offer “Try again”.
+
+Use BCP-47 tags in `supportedLanguages`. A base tag such as `es` covers regional variants while the
+requested region is retained in the prompt. Use `zh-Hans` and `zh-Hant` explicitly for Chinese
+scripts. Explicit regions, variants, and extensions restrict eligibility to matching tags.
+This allowlist is a host evaluation policy, not a guarantee of model quality. Evaluate
+source/target pairs on the Nano versions your users run before expanding it. Google's Prompt API
+is beta and model output varies across devices: see [prompt evaluation](https://developers.google.com/ml-kit/genai/prompt/android/evaluate-prompt).
+
+One inference runs at a time per provider, with duplicate requests sharing results. Backgrounding
+the screen cancels its work and hides translations; eligibility is rechecked on resume and before
+each request. Temporary busy errors receive two bounded retries. Quota exhaustion stops automatic
+work across all active scopes sharing the provider until a later resume. Oversized content is split at paragraph/word boundaries and displayed
+only after every part succeeds.
+
+Translations share a cache across list/detail screens, partitioned by project namespace, original
+content, target locale, model identifier, prompt version, and evaluated language allowlist. The cache expires after 30 days,
+retains at most 500 groups, and bounds the disk file to 2 MiB. It stores hashed keys and changed
+translations rather than another copy of unchanged originals. Cached translations are also hidden
+when the model is unavailable. Cache persistence is best effort.
+
+Build the separate demo with `./gradlew :sample-nano:assembleDebug`. It uses mock feedback and a
+demo-only English/Spanish allowlist; it does not weaken Play Integrity or contact the backend.
+Without an already-ready model it displays the normal feedback UI. For offline device validation,
+prepare the model outside this SDK before disconnecting the network; the SDK itself never installs it.
+
 ## Google Play setup
 
 Production apps must be recognized by Google Play Integrity. For each distinct Play package:
@@ -130,6 +195,12 @@ The mock supports normal, empty, loading, offline, rate-limited, expired-session
 ## Privacy and Play Data Safety
 
 The SDK does not request contacts, advertising identifiers, location, or media permissions. It sends the app package/signing identity, app and OS versions, an installation identifier, feature requests, votes, and conversation messages. A host may additionally provide subscription state, RevenueCat App User ID, or support email. Declare the data your app actually supplies in Google Play Data Safety and in the host app's privacy policy. Do not provide optional identity data without an appropriate user-facing purpose and legal basis.
+
+When the optional Nano adapter is included, inference input and output remain on-device. ML Kit
+also collects diagnostic/usage metrics, including app/device information, identifiers, configured
+languages, input/output sizes, performance, and error information. Account for this optional
+dependency in the host app's disclosures: [ML Kit privacy](https://developers.google.com/ml-kit/terms)
+and [Google Play data disclosure guidance](https://developers.google.com/ml-kit/android-data-disclosure).
 
 ## Distribution
 
